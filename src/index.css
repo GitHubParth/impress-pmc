@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --black: "#1f1f1f";
+	--primary: '#008AFC';
+	--secondary: '#06283D';
+	--primaryGreen: '#207b9a';
+	--lightBlue: '#DFF6FF';
+	--primaryYellow: '#f5d571';
+	--EEE: '#EEE';
+	--lightSkin: '#E7E6E6';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .navlink:hover svg {
+  transform: translate3d(-66.6%, 0, 0);
+} */
+
+.text-border-black {
+  -webkit-text-stroke: 1px black;
+}
+.text-border-primary {
+  -webkit-text-stroke: 1px #008AFC;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-hero-section {
+  background: url('../public/images/homepage/hero-img.avif') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-about-us {
+  background: url('https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2015/04/27/1126/Grand-Hyatt-Goa-P348-Aerial-Overview-Outdoor-Pool.jpg/Grand-Hyatt-Goa-P348-Aerial-Overview-Outdoor-Pool.16x9.jpg?imwidth=1920') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-projects {
+  background: url('https://static.wixstatic.com/media/f35b36_e1e9ca6d8b9c4635889df90880a72824~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_e1e9ca6d8b9c4635889df90880a72824~mv2.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about-clip-left {
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+.about-clip-right {
+  clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
