@@ -4,14 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 const Header = () => {
 	const navigate = useNavigate();
 
-	const openMenu = () => {
-
-	}
-
-	const closeMenu = () => {
-		
-	}
-
 	return (
 		<>
 			<nav className="fixed top-0 left-0 flex items-center justify-between xl:px-20 lg:px-14 md:px-12 sm:px-10 px-8 w-full h-24 bg-primary font-Inter z-40">
