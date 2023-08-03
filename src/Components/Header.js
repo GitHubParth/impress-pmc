@@ -96,7 +96,7 @@ const Header = () => {
 			{/* Mobile Side menu */}
 			<div
 				id="mobileMenu"
-				className="fixed top-0 right-0 translate-x-60 h-full min-h-screen pt-16 pb-10 overflow-y-scroll w-60 flex items-center justify-start flex-col gap-6 bg-black font-Inter z-50 transition-all duration-300"
+				className="fixed no-scrollbar top-0 right-0 translate-x-60 h-full min-h-screen pt-16 pb-10 overflow-y-scroll w-60 flex items-center justify-start flex-col gap-6 bg-black font-Inter z-50 transition-all duration-300"
 			>
 				<button
 					className="absolute top-5 right-5"
