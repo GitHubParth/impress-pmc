@@ -1,653 +1,993 @@
 // Homepage
 export const swiperData = [
-    {
-        img: "/images/homepage/slider-1.webp",
-        title: "Build Values",
-        desc: "Each building is unique and we believe that value is created through a unique combination of creative thinking, multi-disciplinary expertise, and a strong leadership to execute and deliver on the plans. This is what we call our 360 approach to building value, and it is supported by our exceptional pool of talent and expertise to deliver on this strategy.",
-    },
-    {
-        img: "/images/homepage/slider-2.webp",
-        title: "Design Values",
-        desc: "Throughout the project planning and design development phase, we lead an integrated approach that considers the market demand, the competitive offering, and the costs involved in every design element. With this Design-To-Value approach, we harness the expertise of designers to maximize revenue-generating areas, prioritize features with valuable customer benefit, and value engineer the designs to reduce capex and lifecycle cost whilst maximizing the building performance. We have applied our Design-To-Value principles successfully to many of our projects and delivered tangible benefits for the end products and our client's businesses.",
-    },
-    {
-        img: "/images/homepage/slider-3.webp",
-        title: "Technology Values",
-        desc: "In spite of the slow rate of adoption of new technologies in the building industry, our team is on a constant technology watch to identify new materials, energy-efficient equipment, advanced building controls which will not only enhance the building performance but also improve the project productivity. With most of our work in developing markets, we are keenly aware of the implementation challenges with the available skillset, however, through technical partnerships and determined leadership, we have consistently leapfrogged the conventional designs and labour intensive practices and adopted technology-driven solutions that created tremendous value for our clients.",
-    },
-    {
-        img: "/images/homepage/slider-4.webp",
-        title: "Team Values",
-        desc: "Whilst we draft all design and construction contracts to closely protect our client’s interests, we also strongly believe in the value that can be unlocked through meaningful engagement with design consultants and contractors. Our team goes the extra mile to engage all project stakeholders, challenge local work practices, seize opportunities, and ultimately develop a spirit of partnership from which better design, better materials, and better construction techniques are identified. With a strong presence in the field and a team accustomed to working in challenging environments, we develop effective local relationships and we go the extra mile to get the job done.",
-    },
+	{
+		img: "/images/homepage/slider-1.webp",
+		title: "Build Values",
+		desc: "Each building is unique and we believe that value is created through a unique combination of creative thinking, multi-disciplinary expertise, and a strong leadership to execute and deliver on the plans. This is what we call our 360 approach to building value, and it is supported by our exceptional pool of talent and expertise to deliver on this strategy.",
+	},
+	{
+		img: "/images/homepage/slider-2.webp",
+		title: "Design Values",
+		desc: "Throughout the project planning and design development phase, we lead an integrated approach that considers the market demand, the competitive offering, and the costs involved in every design element. With this Design-To-Value approach, we harness the expertise of designers to maximize revenue-generating areas, prioritize features with valuable customer benefit, and value engineer the designs to reduce capex and lifecycle cost whilst maximizing the building performance. We have applied our Design-To-Value principles successfully to many of our projects and delivered tangible benefits for the end products and our client's businesses.",
+	},
+	{
+		img: "/images/homepage/slider-3.webp",
+		title: "Technology Values",
+		desc: "In spite of the slow rate of adoption of new technologies in the building industry, our team is on a constant technology watch to identify new materials, energy-efficient equipment, advanced building controls which will not only enhance the building performance but also improve the project productivity. With most of our work in developing markets, we are keenly aware of the implementation challenges with the available skillset, however, through technical partnerships and determined leadership, we have consistently leapfrogged the conventional designs and labour intensive practices and adopted technology-driven solutions that created tremendous value for our clients.",
+	},
+	{
+		img: "/images/homepage/slider-4.webp",
+		title: "Team Values",
+		desc: "Whilst we draft all design and construction contracts to closely protect our client’s interests, we also strongly believe in the value that can be unlocked through meaningful engagement with design consultants and contractors. Our team goes the extra mile to engage all project stakeholders, challenge local work practices, seize opportunities, and ultimately develop a spirit of partnership from which better design, better materials, and better construction techniques are identified. With a strong presence in the field and a team accustomed to working in challenging environments, we develop effective local relationships and we go the extra mile to get the job done.",
+	},
 ];
 
 export const serviceData = [
-    {
-        svg: (
-            <svg
-                fillRule="evenodd"
-                clipRule="evenodd"
-                imageRendering="optimizeQuality"
-                shapeRendering="geometricPrecision"
-                textRendering="geometricPrecision"
-                viewBox="0 0 1707 1707"
-                width={80}
-                height={80}
-                fill="currentColor"
-            >
-                <path
-                    d="M903 1294c-83,0 -152,-62 -165,-142l-85 0c-15,0 -27,-12 -27,-26l0 -244 -234 0 0 67 77 0c15,0 27,12 27,27l0 207c0,15 -12,27 -27,27l-207 0c-15,0 -27,-12 -27,-27l0 -207c0,-15 12,-27 27,-27l77 0 0 -188 -60 0c-15,0 -27,-12 -27,-27l0 -134c0,-15 12,-27 27,-27l174 0c15,0 26,12 26,27l0 134c0,15 -11,27 -26,27l-61 0 0 67 234 0 0 -244c0,-15 12,-26 27,-26l85 0c13,-61 66,-106 130,-106 73,0 132,59 132,132 0,73 -59,132 -132,132 -64,0 -117,-45 -130,-105l-59 0 0 488 59 0c13,-80 82,-141 165,-141 93,0 168,75 168,168 0,92 -75,168 -168,168zm203 412l-906 0c-74,0 -134,-60 -134,-134l0 -1238c0,-74 60,-134 134,-134l200 0 50 -84c5,-8 14,-13 23,-13l54 0c28,-136 224,-136 253,0l53 0c10,0 18,5 23,13l51 84 199 0c74,0 135,60 135,134l0 1238c0,74 -61,134 -135,134zm-738 -1453l-168 0c-44,0 -81,36 -81,81l0 1238c0,45 37,81 81,81l906 0c45,0 81,-36 81,-81l0 -1238c0,-45 -36,-81 -81,-81l-167 0c9,15 50,76 50,90 0,15 -14,27 -27,26l-617 0c-21,0 -34,-22 -23,-40l46 -76zm501 -12l-51 -85 -62 0c-15,0 -27,-12 -27,-27 0,-41 -34,-75 -76,-75 -42,0 -76,34 -76,75 0,15 -12,27 -26,27l-63 0 -96 160 522 0 -45 -75zm-194 -104c-29,0 -70,7 -70,-27 0,-33 41,-26 70,-26 35,0 35,53 0,53zm332 1288l-708 0c-35,0 -35,-53 0,-53l708 0c35,0 35,53 0,53zm0 145l-708 0c-35,0 -35,-53 0,-53l708 0c35,0 35,53 0,53zm580 -306l0 -139 -194 0 0 139 194 0zm0 -192l0 -301 -75 0 0 301 75 0zm0 -354l0 -139 -194 0 0 139 194 0zm-194 53l0 301 66 0 0 -301 -66 0zm-53 519l0 -857c0,-52 42,-94 94,-94l113 0c52,0 94,42 94,94l0 120 0 737 -3 13 -124 249c-10,20 -38,20 -48,0l-123 -250 -3 -12zm53 -764l194 0c0,-152 17,-134 -153,-134 -23,0 -41,18 -41,41l0 93zm17 791l80 163 81 -163 -161 0zm-1105 -610l121 0 0 -81 -121 0 0 81zm-16 450l154 0 0 -154 -154 0 0 154zm500 -573c0,45 35,79 79,79 43,0 79,-35 79,-79 0,-43 -36,-79 -79,-79 -43,0 -79,35 -79,79zm114 427c-63,0 -114,52 -114,115 0,63 51,114 114,114 64,0 115,-51 115,-114 0,-63 -51,-115 -115,-115z"
-                    fill="currentColor"
-                />
-            </svg>
-        ),
-        title: "Project Planning & Strategy",
-        desc: "Our expert consultants develop robust project plans and strategies, analyze project requirements, and create a roadmap for successful project execution.",
-    },
-    {
-        svg: (
-            <svg
-                viewBox="0 0 68 68"
-                fill="currentColor"
-                width={80}
-                height={80}
-            >
-                <path
-                    fill="currentColor"
-                    d="m66.1 29.4-7-.9c-.7-3-1.8-5.8-3.5-8.4l4.2-5.5c.3-.5.3-1.1-.1-1.5l-5-5c-.4-.4-.9-.4-1.3-.1l-5.6 4.3c-2.6-1.6-5.4-2.8-8.4-3.5l-.9-7c-.1-.5-.5-.9-1-.9h-7.2c-.5 0-.9.4-1 .9l-.9 7c-3 .7-5.8 1.8-8.4 3.5L14.5 8c-.4-.3-1-.3-1.3.1l-5.1 5.1c-.4.4-.4.9-.1 1.3l4.3 5.6c-1.6 2.6-2.8 5.4-3.5 8.4l-7 .9c-.5.1-.9.5-.9 1v7.2c0 .5.4.9.9 1l7 .9c.7 3 1.8 5.8 3.5 8.4L8 53.5c-.3.4-.3 1 .1 1.3l5.1 5.1c.4.4.9.4 1.3.1l5.6-4.3c2.6 1.6 5.4 2.8 8.4 3.5l.9 7c.1.5.5.9 1 .9h7.2c.5 0 .9-.4 1-.9l.9-7c3-.7 5.8-1.8 8.4-3.5l5.5 4.2c.2.1.5.2.7.2.3 0 .6-.1.8-.3l5-5c.4-.4.4-.9.1-1.3l-4.3-5.6c1.6-2.6 2.8-5.4 3.5-8.4l7-.9c.5-.1.9-.5.9-1v-7.2c-.1-.5-.5-.9-1-1zM65 36.7l-6.8.9c-.4.1-.8.4-.9.8-.6 3.2-1.9 6.2-3.7 8.9-.2.4-.2.8 0 1.2l4.2 5.4-3.8 4-5.4-4.2c-.3-.3-.8-.3-1.2 0-2.7 1.8-5.7 3.1-8.9 3.7-.4.1-.7.4-.8.9l-1 6.7h-5.5l-.9-6.8c-.1-.4-.4-.8-.8-.9-3.2-.6-6.2-1.9-8.9-3.7-.4-.2-.8-.2-1.2 0L14 57.9 10.1 54l4.1-5.4c.3-.4.3-.9 0-1.3-1.8-2.7-3-5.6-3.6-8.8-.1-.4-.4-.7-.9-.8l-6.7-1v-5.5l6.8-.9c.4-.1.8-.4.9-.8.6-3.2 1.9-6.2 3.7-8.9.2-.4.2-.8 0-1.2L10.1 14l3.9-3.9 5.4 4.1c.2.2.4.2.7.2.2 0 .5-.1.6-.2 2.7-1.8 5.6-3 8.8-3.6.4-.1.7-.4.8-.9l1-6.7h5.5l.9 6.8c.1.4.4.8.8.9 3.2.6 6.2 1.9 8.9 3.7.4.2.8.2 1.2 0l5.4-4.2 3.9 3.9-4.2 5.4c-.3.3-.3.8 0 1.2 1.8 2.7 3.1 5.7 3.7 8.9.1.4.4.7.9.8l6.8.9v5.4z"
-                />
-                <path
-                    fill="currentColor"
-                    d="M34 15.5c-10.2 0-18.5 8.3-18.5 18.5S23.8 52.5 34 52.5 52.5 44.2 52.5 34 44.2 15.5 34 15.5zm0 35c-9.1 0-16.5-7.4-16.5-16.5S24.9 17.5 34 17.5 50.5 24.9 50.5 34 43.1 50.5 34 50.5z"
-                />
-                <path
-                    fill="currentColor"
-                    d="M34 19c-.8 0-1.5.4-1.9 1.2L21.8 39.8c-.4.7-.3 1.5.1 2.1.4.7 1.1 1 1.8 1h20.7c.8 0 1.5-.4 1.8-1 .4-.7.4-1.5.1-2.1L35.9 20.2c-.4-.7-1.1-1.2-1.9-1.2zm10.5 21.9c0 .1-.1.1-.1.1H23.7s-.1 0-.1-.1v-.2l10.3-19.6s0-.1.1-.1.1.1.1.1l10.3 19.6c.1.1.1.1.1.2z"
-                />
-                <path
-                    fill="currentColor"
-                    d="M34 36.4c-.5 0-.9.2-1.2.5-.3.3-.5.7-.5 1.2s.2.9.5 1.2c.3.3.7.5 1.2.5s.9-.2 1.2-.5c.3-.3.5-.7.5-1.2s-.2-.9-.5-1.2c-.3-.3-.7-.5-1.2-.5zM32.3 28.6l.6 6.9h2.2l.6-6.9v-2.4h-3.4z"
-                />
-            </svg>
-        ),
-        title: "Risk Management",
-        desc: "We conduct thorough risk assessments, develop contingency plans, and provide ongoing monitoring to minimize project uncertainties.",
-    },
-    {
-        svg: (
-            <svg viewBox="0 0 66 66" width={80} height={80}>
-                <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                    d="M35.1 9.8h6.7c2.2 0 4 1.8 4 4v10.4M44.3 63.4c-.7.5-1.5.8-2.4.8H6.1c-2.2 0-4-1.8-4-4V13.8c0-2.2 1.8-4 4-4h7.3"
-                />
-                <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                    d="M31.9,12.9H16.5c-1.7,0-3.1-1.4-3.1-3.1V8.2c0-0.8,0.6-1.4,1.4-1.4h18.7c0.8,0,1.4,0.6,1.4,1.4v1.6 C35,11.5,33.6,12.9,31.9,12.9z"
-                />
-                <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                    d="M26.5 4.3c0 1.4-1.1 2.5-2.5 2.5-1.4 0-2.5-1.1-2.5-2.5 0-1.4 1.1-2.5 2.5-2.5C25.4 1.7 26.5 2.9 26.5 4.3zM52.5 33.8c1.5-1 2.5-2.8 2.5-4.7 0-3.2-2.6-5.8-5.8-5.8-3.2 0-5.8 2.6-5.8 5.8 0 2 1 3.7 2.5 4.8M47.2 31.7c-.8-.6-1.3-1.6-1.3-2.7 0-1.8 1.5-3.3 3.3-3.3s3.3 1.5 3.3 3.3c0 1.1-.5 2-1.3 2.6"
-                />
-                <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                    d="M45.8,34.6c0-1.8,1.5-3.3,3.3-3.3c1.8,0,3.3,1.5,3.3,3.3"
-                />
-                <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                    d="M63.9,51.1c-0.9,8.1-8.2,14-16.3,13.1c-8.1-0.9-14-8.2-13.1-16.3c0.9-8.1,8.2-14,16.3-13.1 C58.9,35.6,64.8,42.9,63.9,51.1z"
-                />
-                <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                    d="M59.9,50.6c-0.7,5.9-6,10.2-11.9,9.6c-5.9-0.7-10.2-6-9.6-11.9c0.7-5.9,6-10.2,11.9-9.6 C56.3,39.3,60.6,44.7,59.9,50.6z"
-                />
-                <line
-                    x1={51.9}
-                    x2={50.4}
-                    y1={52.5}
-                    y2={50.9}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                />
-                <line
-                    x1={47.7}
-                    x2={47.1}
-                    y1={48.2}
-                    y2={47.6}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                />
-                <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                    d="M51.1,49.4c0,1.1-0.9,1.9-1.9,1.9c-1.1,0-1.9-0.9-1.9-1.9s0.9-1.9,1.9-1.9C50.2,47.5,51.1,48.4,51.1,49.4z"
-                />
-                <line
-                    x1={49.1}
-                    x2={49.1}
-                    y1={40.9}
-                    y2={41.8}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                />
-                <line
-                    x1={49.1}
-                    x2={49.1}
-                    y1={57.1}
-                    y2={58}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                />
-                <line
-                    x1={40.6}
-                    x2={41.5}
-                    y1={49.4}
-                    y2={49.4}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                />
-                <line
-                    x1={56.8}
-                    x2={57.7}
-                    y1={49.4}
-                    y2={49.4}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                />
-                <line
-                    x1={43.1}
-                    x2={43.8}
-                    y1={43.4}
-                    y2={44.1}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                />
-                <line
-                    x1={54.5}
-                    x2={55.2}
-                    y1={54.8}
-                    y2={55.5}
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeMiterlimit={10}
-                    strokeWidth={1.5}
-                />
-                <g fill="#000000">
-                    <line
-                        x1={43.1}
-                        x2={43.8}
-                        y1={55.5}
-                        y2={54.8}
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                    />
-                    <line
-                        x1={54.5}
-                        x2={55.2}
-                        y1={44.1}
-                        y2={43.4}
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                    />
-                </g>
-                <g fill="#000000">
-                    <path
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                        d="M14,58.4H9.3c-0.6,0-1-0.5-1-1v-4.7c0-0.6,0.5-1,1-1H14c0.6,0,1,0.5,1,1v4.7C15,57.9,14.5,58.4,14,58.4z"
-                    />
-                    <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                        points="11.1 54.3 12.6 55.8 16.7 51.6"
-                    />
-                    <line
-                        x1={21.3}
-                        x2={29.4}
-                        y1={57.4}
-                        y2={57.4}
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                    />
-                    <line
-                        x1={21.3}
-                        x2={26.3}
-                        y1={52.6}
-                        y2={52.6}
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                    />
-                    <path
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                        d="M14,47.2H9.3c-0.6,0-1-0.5-1-1v-4.7c0-0.6,0.5-1,1-1H14c0.6,0,1,0.5,1,1v4.7C15,46.7,14.5,47.2,14,47.2z"
-                    />
-                    <polyline
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                        points="11.1 43.1 12.6 44.6 16.7 40.4"
-                    />
-                    <line
-                        x1={21.3}
-                        x2={29.4}
-                        y1={46.2}
-                        y2={46.2}
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                    />
-                    <line
-                        x1={21.3}
-                        x2={26.3}
-                        y1={41.4}
-                        y2={41.4}
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                    />
-                    <g fill="#000000">
-                        <path
-                            fill="none"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeMiterlimit={10}
-                            strokeWidth={1.5}
-                            d="M14,36H9.3c-0.6,0-1-0.5-1-1v-4.7c0-0.6,0.5-1,1-1H14c0.6,0,1,0.5,1,1V35C15,35.5,14.5,36,14,36z"
-                        />
-                        <polyline
-                            fill="none"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeMiterlimit={10}
-                            strokeWidth={1.5}
-                            points="11.1 31.9 12.6 33.4 16.7 29.2"
-                        />
-                        <line
-                            x1={21.3}
-                            x2={29.4}
-                            y1={35}
-                            y2={35}
-                            fill="none"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeMiterlimit={10}
-                            strokeWidth={1.5}
-                        />
-                        <line
-                            x1={21.3}
-                            x2={26.3}
-                            y1={30.2}
-                            y2={30.2}
-                            fill="none"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeMiterlimit={10}
-                            strokeWidth={1.5}
-                        />
-                    </g>
-                    <g fill="#000000">
-                        <path
-                            fill="none"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeMiterlimit={10}
-                            strokeWidth={1.5}
-                            d="M14,24.8H9.3c-0.6,0-1-0.5-1-1V19c0-0.6,0.5-1,1-1H14c0.6,0,1,0.5,1,1v4.7C15,24.3,14.5,24.8,14,24.8z"
-                        />
-                        <polyline
-                            fill="none"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeMiterlimit={10}
-                            strokeWidth={1.5}
-                            points="11.1 20.7 12.6 22.1 16.7 18"
-                        />
-                        <line
-                            x1={21.3}
-                            x2={39.7}
-                            y1={23.8}
-                            y2={23.8}
-                            fill="none"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeMiterlimit={10}
-                            strokeWidth={1.5}
-                        />
-                        <line
-                            x1={21.3}
-                            x2={34.7}
-                            y1={19}
-                            y2={19}
-                            fill="none"
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeMiterlimit={10}
-                            strokeWidth={1.5}
-                        />
-                    </g>
-                </g>
-                <g fill="#000000">
-                    <line
-                        x1={16.4}
-                        x2={24.5}
-                        y1={9.4}
-                        y2={9.4}
-                        fill="none"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeMiterlimit={10}
-                        strokeWidth={1.5}
-                    />
-                </g>
-            </svg>
-        ),
-        title: "Project Scheduling",
-        desc: "Our consultants use advanced scheduling techniques to optimize resource allocation and keep your project on track.",
-    },
-    {
-        svg: (
-            <svg viewBox="0 0 512 512" width={80} height={80}>
-                <path
-                    fill="currentColor"
-                    d="M222.559 176.297a7.999 7.999 0 0 1 5.827-9.697c4.287-1.072 8.628 1.54 9.697 5.827 2.229 8.94 11.49 11.899 18.771 11.736 6.283-.15 12.337-2.37 15.066-5.526 1.447-1.673 1.979-3.613 1.677-6.106-.52-4.278-3.128-9.52-18.82-12.096-23.757-3.9-29.306-16.317-29.778-26.046-.651-13.406 8.585-24.623 23-27.96v-4.252a8 8 0 0 1 16 0v4.182c9.362 2.055 18.288 7.973 22.942 19.058a8 8 0 0 1-4.279 10.473 7.998 7.998 0 0 1-10.473-4.279c-3.777-8.996-13.013-11.31-20.488-9.615-1.864.423-11.141 2.97-10.721 11.618.111 2.301.408 8.41 16.388 11.034 19.607 3.219 30.411 11.952 32.111 25.957.849 6.993-1.039 13.39-5.458 18.5-4.553 5.263-11.762 8.948-20.021 10.392v3.987a8 8 0 0 1-16 0v-4.118c-12.714-2.576-22.468-11.142-25.441-23.069zm-54.606-23.467c0-48.549 39.498-88.047 88.046-88.047 48.549 0 88.047 39.498 88.047 88.047S304.549 240.877 256 240.877c-48.549 0-88.047-39.498-88.047-88.047zm16 0c0 39.727 32.32 72.047 72.046 72.047 39.727 0 72.047-32.32 72.047-72.047S295.727 80.783 256 80.783c-39.727 0-72.047 32.32-72.047 72.047zm224.844 269.841v14.892l16.051.138c5.33.046 10.332 2.174 14.084 5.991 3.752 3.818 5.794 8.855 5.748 14.186l-.226 26.288c-.094 10.972-9.051 19.833-20.002 19.833h-.174l-136.556-1.173c-11.03-.095-19.927-9.146-19.833-20.177l.226-26.287c.095-10.973 9.052-19.834 20.002-19.834h.174l8.131.07-.105-69.325c-.028-18.314 2.173-39.047 18.708-53.949 4.058-3.658 9.02-7.84 14.273-12.268 15.091-12.718 33.872-28.546 49.209-46.681.233-.275.484-.534.751-.776 12.774-11.517 31.927-11.391 43.603.286 1.942 1.942 3.579 4.008 4.906 6.167.945-3.655 1.398-7.453 1.383-11.46l-.36-94.363c-.205-54.217 27.456-58.875 35.938-59.01 17.489-.326 33.86 14.245 34.319 30.475l4.922 173.71c.505 17.874-6.046 34.139-18.945 47.036l-76.227 76.231zm15.913 31.03-136.556-1.173-.033-.001c-2.157 0-3.988 1.812-4.007 3.973l-.226 26.286c-.019 2.172 1.8 4.021 3.971 4.04l136.556 1.173c2.202.027 4.021-1.8 4.04-3.97l.226-26.288c.012-1.426-.721-2.387-1.16-2.833-.437-.445-1.385-1.195-2.811-1.207zm-31.913-16.275v-18.068c0-2.122.843-4.156 2.343-5.657l78.573-78.573c9.849-9.847 14.648-21.713 14.265-35.27l-4.922-173.71c-.213-7.535-9.341-15.068-18.069-14.93-12.746.204-20.295 16.261-20.194 42.951l.36 94.364c.054 14.665-4.683 27.658-14.482 39.72a271.89 271.89 0 0 1-5.291 6.313c-.327.47-36.866 37.578-41.099 41.812a8 8 0 0 1-11.313-11.314c4.316-4.315 30.823-30.062 39.722-40.285 3.558-5.397 5.708-12.731-1.139-19.578-5.64-5.641-14.679-5.627-21.208-.039-16.131 18.971-35.302 35.127-50.73 48.13-5.372 4.527-10.012 8.438-13.872 11.918-11.835 10.666-13.444 26.509-13.421 42.041l.105 69.486 80.372.689zm-95.014 39.952a8.168 8.168 0 1 0 6.035-15.18 8.168 8.168 0 0 0-6.035 15.18zm-53.899-21.016.226 26.287c.095 11.03-8.802 20.082-19.833 20.177l-136.556 1.173h-.174c-10.952.001-19.908-8.86-20.002-19.833l-.226-26.288c-.046-5.33 1.996-10.367 5.748-14.186 3.752-3.817 8.755-5.945 14.085-5.991l16.051-.138v-14.892l-76.23-76.229C14.075 333.545 7.524 317.28 8.029 299.407l4.922-173.712c.458-16.229 16.815-30.76 34.318-30.475 8.482.136 36.144 4.793 35.938 59.01l-.36 94.364c-.015 4.007.438 7.805 1.383 11.459 1.328-2.159 2.963-4.224 4.906-6.167 11.676-11.677 30.829-11.803 43.602-.286.268.241.519.5.751.775 15.338 18.135 34.118 33.963 49.209 46.681 5.253 4.428 10.216 8.609 14.274 12.268 16.535 14.902 18.736 35.635 18.708 53.949l-.105 69.325 8.131-.07h.175c5.266 0 10.234 2.037 14.01 5.749 3.819 3.753 5.947 8.755 5.993 14.085zm-124.681-37.005v18.068l80.373-.69.105-69.486c.023-15.532-1.586-31.375-13.42-42.041-3.861-3.48-8.5-7.391-13.873-11.918-15.428-13.003-34.599-29.159-50.73-48.13-6.528-5.588-15.567-5.601-21.207.038-6.848 6.849-4.697 14.182-1.139 19.579 8.899 10.226 35.407 35.971 39.721 40.285a8 8 0 1 1-11.313 11.314c-4.232-4.232-40.771-41.342-41.099-41.812a273.925 273.925 0 0 1-5.291-6.312c-9.8-12.064-14.537-25.057-14.482-39.721l.36-94.365c.101-26.69-7.448-42.747-20.195-42.951-8.723-.161-17.855 7.395-18.069 14.929l-4.922 173.711c-.383 13.556 4.417 25.422 14.265 35.269l78.573 78.573a8.014 8.014 0 0 1 2.343 5.66zm108.908 63.429-.226-26.287c-.012-1.426-.762-2.373-1.208-2.812-.442-.435-1.391-1.16-2.796-1.16l-.035.001-136.556 1.173c-1.426.012-2.374.762-2.812 1.207-.438.446-1.172 1.407-1.16 2.833l.226 26.288c.019 2.159 1.85 3.97 4.007 3.971l.033-.001 136.556-1.173c2.171-.018 3.989-1.868 3.971-4.04zm-19.93-20.589a8.17 8.17 0 0 0-4.573 10.609 8.169 8.169 0 1 0 4.573-10.609zm-97.012-290.849v-37.036a8 8 0 0 1 5.126-7.466l18.822-7.245a124.487 124.487 0 0 1 11.915-28.739l-8.192-18.445a7.999 7.999 0 0 1 1.654-8.904l26.188-26.188a8.002 8.002 0 0 1 8.904-1.655l18.448 8.193a124.51 124.51 0 0 1 28.735-11.914l7.246-18.824A8.003 8.003 0 0 1 237.482 8h37.035a8 8 0 0 1 7.466 5.126l7.246 18.824a124.535 124.535 0 0 1 28.735 11.914l18.448-8.193a8.003 8.003 0 0 1 8.904 1.655l26.188 26.188a7.999 7.999 0 0 1 1.654 8.904l-8.19 18.44a124.509 124.509 0 0 1 11.917 28.745l18.819 7.244a8 8 0 0 1 5.126 7.466v37.035a8 8 0 0 1-5.126 7.466l-18.824 7.246a124.491 124.491 0 0 1-11.914 28.735l8.193 18.448a7.999 7.999 0 0 1-1.654 8.904l-26.188 26.188a7.997 7.997 0 0 1-8.904 1.654l-18.44-8.19a124.498 124.498 0 0 1-28.745 11.917l-7.243 18.818a8 8 0 0 1-7.466 5.126h-37.036a8 8 0 0 1-7.466-5.126l-7.246-18.824a124.473 124.473 0 0 1-28.735-11.914l-18.448 8.193a8.002 8.002 0 0 1-8.904-1.654l-26.188-26.188a7.999 7.999 0 0 1-1.654-8.904l8.19-18.44a124.487 124.487 0 0 1-11.916-28.745l-18.819-7.244a8 8 0 0 1-5.128-7.466zm16-5.494 17.543 6.753a7.998 7.998 0 0 1 4.909 5.614 108.624 108.624 0 0 0 13.208 31.861 8.004 8.004 0 0 1 .5 7.442l-7.636 17.193 18.42 18.419 17.2-7.639a7.996 7.996 0 0 1 7.441.5 108.657 108.657 0 0 0 31.851 13.206 7.998 7.998 0 0 1 5.614 4.908l6.755 17.549h26.05l6.752-17.543a7.996 7.996 0 0 1 5.614-4.908 108.638 108.638 0 0 0 31.86-13.208 8.004 8.004 0 0 1 7.442-.5l17.193 7.636 18.419-18.42-7.639-17.2a7.999 7.999 0 0 1 .499-7.441 108.62 108.62 0 0 0 13.206-31.852 8 8 0 0 1 4.909-5.614l17.549-6.755v-26.05l-17.543-6.753a8.002 8.002 0 0 1-4.909-5.614 108.651 108.651 0 0 0-13.208-31.86 8.004 8.004 0 0 1-.5-7.442l7.636-17.193-18.42-18.419-17.2 7.639a7.999 7.999 0 0 1-7.441-.5 108.647 108.647 0 0 0-31.852-13.206 8 8 0 0 1-5.614-4.909L269.024 24h-26.049l-6.755 17.549a8 8 0 0 1-5.614 4.909 108.631 108.631 0 0 0-31.852 13.206 8.002 8.002 0 0 1-7.441.499l-17.2-7.639-18.42 18.42 7.638 17.197a8.001 8.001 0 0 1-.499 7.442 108.576 108.576 0 0 0-13.206 31.854 7.998 7.998 0 0 1-4.909 5.614l-17.547 6.754v26.049z"
-                />
-            </svg>
-        ),
-        title: "Cost Control & Budget Management",
-        desc: "We help you maintain control over project costs, cost analysis, and cost optimization strategies to ensure your project remains within budget.",
-    },
-    {
-        svg: (
-            <svg width={82} height={82} viewBox="0 0 512 512">
-                <path
-                    fill="#DFF6FF"
-                    stroke="none"
-                    d="M0 0L0 198C8.4928 198 19.9337 196.002 28 198.815C45.8137 205.028 59.1133 224.098 79 219.127C81.7735 218.433 86.2253 218.121 88.3773 216.066C91.6478 212.944 85.969 208.904 83.9992 206.961C76.2639 199.329 70.6556 190.501 67.7454 180C55.8146 136.95 78.8464 93.6426 125 90L118.662 70L128 59L151 36L161 27.4468L187 41.2654L218 30L224 0L0 0z"
-                />
-                <path
-                    fill="currentColor"
-                    stroke="none"
-                    d="M218 30L187 40.7384L161 26.8279L150 36L127 59L117.993 70L125 90C77.4543 92.0417 55.874 138.164 67.7454 181C70.4985 190.934 75.6725 199.707 83.0139 206.961C84.8136 208.739 90.503 212.36 88.2485 215.451C85.708 218.933 71.5351 221.743 67.5756 220.486C53.722 216.088 42.7596 203.614 29 198.815C20.6705 195.91 8.77341 198 0 198L0 324L0 357C0 360.395 -1.13373 366.416 1.02778 369.298C4.984 374.573 19.8552 376.618 26 378.667C49.7217 386.574 72.8204 397 98 397L99 390C105.919 395.027 117.131 398.567 122.4 405.329C126.491 410.578 126.002 417.544 131.301 422.671C135.748 426.974 143.478 427.123 147.272 431.433C156.284 441.669 155.497 453.627 173 454C174.135 467.89 183.677 478.695 198 479C198.655 493.334 209.602 503.992 224 503.992C228.451 503.992 234.504 500.577 238.576 501.622C242.759 502.695 246.163 507.545 250 509.586C260.259 515.043 275.746 512.601 283.319 503.826C286.873 499.709 287.24 491.009 291.317 488.164C302.558 480.322 313.257 480.036 314 463C327.773 461.874 338.358 452.049 339 438C348.552 437.562 357.718 432.041 361.521 423C363.144 419.14 362.918 413.658 365.6 410.39C369.544 405.584 378.525 402.984 384 400.247L476 354.247C484.813 349.84 505.649 343.954 510.972 335.61C515.453 328.585 512 310.265 512 302L512 214C505.66 214 498.058 212.861 492 214.966C483.728 217.841 475.567 225.803 467 227.141C460.339 228.182 449.613 223.027 443 221.373C438.343 220.209 426.756 219.472 423.752 215.475C421.529 212.518 427.266 208.719 428.986 206.985C436.281 199.633 441.487 190.987 444.255 181C455.944 138.819 433.873 92.0128 387 90L394.007 70L385 59L362 36L351 26.8279L325 40.7384L294 30C293.507 23.8021 292.264 4.99866 287.262 1.02777C284.34 -1.29138 277.51 0 274 0L239 0C235.29 0 227.815 -1.41412 224.738 1.02777C219.736 4.99866 218.493 23.8022 218 30z"
-                />
-                <path
-                    fill="#DFF6FF"
-                    stroke="none"
-                    d="M288 0L294 30L325 41.2654L351 27.4468L361 36L384 59L393.338 70L387 90C432.706 93.6072 456.575 138.52 443.964 181C440.949 191.153 435.437 199.501 428.001 206.985C426.22 208.778 421.089 212.414 423.086 215.475C425.779 219.602 438.438 220.486 443 221.627C449.751 223.314 460.185 228.388 467 227.502C475.398 226.411 484.099 218.526 492 215.352C498.072 212.912 505.569 214 512 214L512 0L288 0M238 17C237.151 23.5771 236.38 38.5673 231.436 43.2724C225.903 48.5384 212.164 49.6946 205 52.8619C199.863 55.133 192.622 61.6403 187 61.5988C178.752 61.5378 171.374 47.3035 163 49.446C158.778 50.5261 154.954 56.0457 152 59C148.111 62.8885 141.123 67.7004 139.238 73C138.012 76.4449 140.725 80.8842 142.011 84C146.802 95.6116 154.827 100.862 165 108C200.913 55.2058 273.355 40.3488 324 82.0841C332.534 89.1166 340.491 97.3316 346 107C357.43 101.907 365.575 94.4399 370.201 83C371.378 80.089 373.884 76.2247 372.759 73C370.915 67.7122 363.869 62.869 360 59C357.038 56.0376 353.844 51.6438 350 49.8171C341.843 45.9413 333.092 61.5389 325 61.5988C319.378 61.6403 312.137 55.133 307 52.8619C299.836 49.6946 286.097 48.5384 280.564 43.2724C275.62 38.5674 274.849 23.5771 274 17L238 17M157 216C174.472 220.921 188.192 224.825 206 220.373C209.396 219.524 220.097 218.683 221.248 214.736C222.3 211.134 216.11 207.144 214.039 204.996C207.761 198.483 203.164 190.603 200.36 182C187.689 143.126 208.875 90.1821 255 90.179C301.258 90.176 324.709 141.903 311.64 182C308.837 190.603 304.239 198.483 297.961 204.996C295.89 207.144 289.7 211.134 290.752 214.736C291.903 218.683 302.604 219.524 306 220.373C323.808 224.825 337.528 220.921 355 216C353.205 209.737 346.631 206.034 342.669 201C336.444 193.09 332.396 183.897 330.616 174C328.779 163.79 328.81 150.214 330.615 140C332.214 130.952 337.212 124.434 331.644 116C296.422 62.6422 210.756 60.6131 178.472 119C174.885 125.488 179.335 131.447 180.714 138C182.961 148.68 183.261 162.202 181.561 173C179.949 183.242 175.737 192.857 169.331 201C165.415 205.977 158.805 209.845 157 216M108 230L90 234L90 235L120 252.011L131.958 260.213L132 276C137.258 275.571 151.518 274.518 154.976 270.262C157.67 266.946 156.775 260.027 157.749 256C159.475 248.868 163.5 243.31 167 237C160.685 234.617 144.914 234.31 141.028 228.57C138.208 224.406 139.967 214.861 140.001 210C140.074 199.396 152.808 195.526 158.3 187C168.191 171.645 167.53 145.863 159.215 130C145.525 103.882 109.554 100.863 91.3904 124C81.816 136.196 80.3839 158.313 83.8989 173C85.9021 181.37 89.7059 188.959 96.0147 194.907C99.2924 197.996 104.761 200.1 106.972 204.104C110.429 210.364 108 222.953 108 230M240 230C217.401 233.043 174.595 238.322 174 267C212.873 259.676 249.905 273.638 287 284.14L320 293.579C324.259 294.793 330.373 297.732 334.852 296.643C339.342 295.551 338 288.42 338 285C338 273.993 340.201 260.487 333.362 251.004C323.165 236.865 288.491 232.221 272 230C272 222.74 269.949 211.839 272.603 205.043C275.055 198.768 284.866 194.79 288.957 189C299.222 174.473 299.992 150.368 293.535 134C276.449 90.6873 216.923 106.988 215.039 150C214.4 164.605 215.085 179.067 224.518 190.999C228.412 195.925 237.157 199.309 239.397 205.043C242.051 211.839 240 222.74 240 230M345 237C354.332 253.825 356 266.886 356 286C377.762 279.114 400.013 263.94 420 252.861C426.96 249.003 438.552 245.791 443 239L404 230C404 222.953 401.571 210.364 405.028 204.104C407.239 200.1 412.708 197.996 415.985 194.907C422.294 188.959 426.098 181.37 428.101 173C432.053 156.487 429.194 133.97 417.535 121.171C398.381 100.141 363.887 105.819 351.377 131C343.598 146.66 344.6 173.528 354.36 188C359.417 195.5 371.817 199.553 371.995 209.001C372.09 214.026 373.878 224.278 370.972 228.57C367.086 234.31 351.315 234.617 345 237M17 215L17 319L17 346C17 348.964 16.1301 353.768 18.0278 356.298C22.6593 362.473 44.4992 366.892 52 368C57.8868 339.479 66.0628 311.255 73.1265 283C75.0588 275.271 83.0109 257.88 80.3063 250.329C79.0812 246.908 73.8811 245.104 71 243.397C62.3642 238.279 53.6246 233.337 45 228.201C36.6983 223.257 26.8809 215.292 17 215M495 234C480.788 238.094 466.975 247.674 454 254.691C430.512 267.395 406.355 278.915 383 291.861C370.158 298.98 355.194 309.662 341 313.502C314.768 320.598 287.727 294.145 261 298.44C244.143 301.148 227.13 313.187 212 320.753C205.237 324.135 198.25 327.176 199.113 336C199.917 344.225 207.872 347.75 215 344.586C235.152 335.642 255.295 312.266 279 325.955C299.006 337.508 317.02 358.471 334 374.086C339.559 379.198 349.282 391.925 357 393.01C364.934 394.126 379.92 382.787 387 379.247L464 340.753C471.149 337.178 491.132 331.291 494.397 323.787C497.394 316.897 495 304.475 495 297L495 234M97 259L68 374L84 379C94.7359 354.053 99.7847 325.122 107.291 299C109.272 292.105 116.712 277.126 114.306 270.213C112.568 265.218 101.521 261.111 97 259M104 373C109.741 376.056 122.289 387.38 128.83 386.122C135.365 384.865 142.516 372.926 148 368.927C164.624 356.806 189.01 366.394 190 388C203.521 389.18 213.817 399.448 215 413C223.897 413.408 231.66 418.227 236.12 426.001C237.861 429.036 238.279 433.802 240.738 436.262C243.944 439.467 250.176 440.102 253.985 443.043C261.178 448.596 266.896 456.186 274 462.079C278.957 466.192 296.312 476.8 296.312 462C296.312 457.081 291.368 453.583 288 450.754L262 429.08C259.389 426.902 252.323 422.941 251.769 419.335C251.199 415.619 258.421 409.542 260 406C268.007 410.623 274.906 417.509 282 423.414C289.613 429.75 299.409 441.63 309 444.486C315.755 446.497 323.12 441.459 320.257 434.015C316.11 423.231 296.773 412.558 288 405.247C285.012 402.757 277.15 398.33 277.041 393.985C276.933 389.69 283.219 384.888 285 381C298.488 389.922 310.575 401.729 323 412.08C327.569 415.887 333.391 422.079 339.995 419.927C354.293 415.27 339.139 401.811 334 397.086C319.512 383.761 304.863 370.48 290 357.576C283.708 352.112 277.624 344.673 270 341.05C250.056 331.573 230.146 363.754 210 363.82C186.924 363.896 173.363 336.455 186.637 318.001C197.2 303.316 220.829 297.855 236 289C211.464 274.01 178.586 283.861 153 289.65C146.426 291.138 131.557 291.6 126.843 296.589C122.354 301.34 121.344 312.809 119.579 319C114.448 336.997 109.7 355.175 104 373M511 336C466.148 362.178 417.298 382.696 371.001 406.248C362.705 410.468 364.589 416.655 360.583 424C356.257 431.93 347.886 437.219 339 438C337.806 451.68 327.297 461.201 314 463C313.238 472.317 308.444 480.202 300 484.597C297.132 486.09 292.124 486.21 290.013 488.738C282.872 497.293 284.27 507.067 271 511L271 512L512 512L512 388L512 353L511 336M0 370L0 512L255 512L255 511C248.828 509.167 244.906 503.026 239 501.392C234.557 500.163 228.738 503.971 224 503.971C210.061 503.971 199.178 492.492 198 479C184.064 478.362 174.785 467.244 173 454C164.181 453.596 156.234 448.81 151.905 440.999C150.195 437.914 149.814 433.23 147.272 430.738C143.068 426.617 135.82 426.456 131.301 421.815C126.309 416.688 126.531 409.496 122.4 404.529C117.264 398.35 106.051 393.753 99 390L98 397C63.8244 397 32.907 377.613 0 370M160 382.028C154.172 384.93 143.945 394.794 141.758 401C139.117 408.493 147.501 414.058 154 410.821C160.124 407.771 170.563 397.794 172.304 391C174.13 383.875 166.093 378.993 160 382.028M187 405.746C180.091 407.345 169.425 418.559 166.859 425C164.403 431.165 169.277 437.837 176 436.703C183.383 435.457 195.001 423.081 197.016 416C198.69 410.117 192.843 404.394 187 405.746M211 430.758C204.719 432.971 194.076 443.788 191.743 450C189.48 456.025 194.305 463.019 201 461.304C207.781 459.567 218.833 448.455 221.257 442C223.672 435.57 217.913 428.322 211 430.758M235 455.859C228.524 458.438 218.448 468.369 216.188 475C213.97 481.507 220.474 488.13 227 485.731C233.716 483.263 244.509 472.965 246.481 466C248.459 459.017 241.617 453.223 235 455.859M262 475C259.746 478.3 253.2 483.899 253.207 487.91C253.227 499.378 281.26 494.607 268.607 480.29C266.716 478.15 264.355 476.562 262 475z"
-                />
-            </svg>
-        ),
-        title: "Stakeholders Engagement",
-        desc: "Our team assists in building strong relationships and ensures smooth project progress with stakeholders throughout the project lifecycle.",
-    },
-    {
-        svg: (
-            <svg viewBox="0 0 110 110" width={85} height={85}>
-                <path
-                    d="M14.9453125 74.5826492c0 1.0800781.8789063 1.9589844 1.9599609 1.9589844h8.4814453c1.0800781 0 1.9589844-.8789063 1.9589844-1.9589844v-8.4814453c0-1.0810547-.8789063-1.9599609-1.9589844-1.9599609h-8.4814453c-1.0810547 0-1.9599609.8789063-1.9599609 1.9599609V74.5826492zM25.3457031 66.1012039v8.4404297l-8.4003906.0410156-.0400391-8.4414063L25.3457031 66.1012039zM25.3867188 80.2105789h-8.4814453c-1.0810547 0-1.9599609.8789063-1.9599609 1.9599609v8.4814453c0 1.0800781.8789063 1.9589844 1.9599609 1.9589844h8.4814453c1.0800781 0 1.9589844-.8789063 1.9589844-1.9589844v-8.4814453C27.3457031 81.0894852 26.4667969 80.2105789 25.3867188 80.2105789zM25.3457031 90.6109695l-8.4003906.0410156-.0400391-8.4414063 8.4404297-.0400391V90.6109695zM34.522583 87.7642899h30.9554443c.7480469 0 1.3533936-.6054688 1.3533936-1.3535156s-.6053467-1.3532715-1.3533936-1.3532715H34.522583c-.7480469 0-1.3533325.6052246-1.3533325 1.3532715S33.7745361 87.7642899 34.522583 87.7642899zM33.4648438 25.384407h35.6591797c1.0595703 0 1.9208984-.8564453 1.9208984-1.9101563v-2.6699219c0-1.0585938-.8613281-1.9199219-1.9208984-1.9199219H33.4648438c-1.0585938 0-1.9199219.8613281-1.9199219 1.9199219v2.6699219C31.5449219 24.5279617 32.40625 25.384407 33.4648438 25.384407zM33.5449219 20.884407h35.5v2.5h-35.5V20.884407zM14.9454346 32.4740067c0 .5527344.4472656 1 1 1h54.5722656c.5527344 0 1-.4472656 1-1s-.4472656-1-1-1H15.9454346C15.3927002 31.4740067 14.9454346 31.9212723 14.9454346 32.4740067zM70.5177002 37.2034988H15.9454346c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1h54.5722656c.5527344 0 1-.4472656 1-1S71.0704346 37.2034988 70.5177002 37.2034988zM43.2315674 42.932991H15.9454346c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1h27.2861328c.5527344 0 1-.4472656 1-1S43.7843018 42.932991 43.2315674 42.932991z"
-                    fill="currentColor"
-                />
-                <path
-                    d="M19.2879639 73.4967117c.3485012.3486252.9133205.3486404 1.2618408 0l4.434021-4.434082c.3485718-.3483887.3485718-.9130859 0-1.2617188s-.913269-.3486328-1.2619019 0l-3.8030396 3.8029785-1.348999-1.348877c-.3486328-.3486328-.9133301-.3486328-1.2619019 0-.3485718.3483887-.3485718.9130859 0 1.2617188L19.2879639 73.4967117zM19.2879639 89.2589188c.3478794.3479996.9133282.3486328 1.2618408 0l4.434021-4.434082c.3485718-.3486328.3485718-.9133301 0-1.2619629-.3485718-.3483887-.913269-.3483887-1.2619019 0l-3.8030396 3.8029785-1.348999-1.348877c-.3486328-.3486328-.9133301-.3486328-1.2619019 0s-.3485718.9133301 0 1.2619629L19.2879639 89.2589188zM49.4033203 51.6871414c-6.2675781 6.2089844-6.3125 16.3632813-.0996094 22.6347656 3.0189667 3.0473938 7.0552406 4.7392578 11.3691406 4.7392578 4.2460938 0 8.2412109-1.6435547 11.2597656-4.6337891v.0009766c3.0361328-3.0087891 4.7207031-7.0195313 4.7421875-11.2949219.0224609-4.2763672-1.6220703-8.3037109-4.6298828-11.3408203C65.8320313 45.5211258 55.6767578 45.4732742 49.4033203 51.6871414zM70.5244141 73.0064774c0 .0009766 0 .0009766 0 .0009766-2.640625 2.6162109-6.1367188 4.0546875-9.8515625 4.0537109-3.7605896 0-7.2969894-1.4706345-9.9482422-4.1474609-5.4365234-5.4873047-5.3974609-14.3730469.0869141-19.8056641 5.4702301-5.4193077 14.3578796-5.4134598 19.8115234.0927734 2.6318359 2.65625 4.0712891 6.1806641 4.0517578 9.9228516C74.65625 66.8648758 73.1816406 70.3746414 70.5244141 73.0064774z"
-                    fill="currentColor"
-                />
-                <path
-                    d="M95.4912109 97.150032H92.581604l3.2045288-3.1748047c.9316406-.9248047.9384766-2.4365234.0146484-3.3701172L82.4912109 77.1695633c-.8584747-.8659592-2.2510834-.9671555-3.2338867-.1264648l-1.9655762-1.9836426c5.0126953-6.9370117 5.177124-16.3164063.4436035-23.4001465V15.0914392c0-2.3378906-1.9013672-4.2392578-4.2392578-4.2392578-53.3372498.0108271-47.6812134-.0176058-48.1243896.0109863-.0977783.005127-.1919556.0239258-.2841187.0571289-.0259399.0095215-.0517578.0158691-.0765991.0275879-.1074219.0488281-.2095337.1105957-.2961426.1972656L9.0244141 26.8346024c-.0874023.0874023-.1491699.1904297-.197998.2990723-.0083008.0183105-.0130005.0375977-.0202026.0566406-.0387573.1020508-.0599365.2075195-.0638428.3166504-.0004272.012207-.007019.0224609-.007019.034668v67.0498047c0 .9648438.336731 1.8452148.8817139 2.5585938H7c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1h88.4912109c.5527344 0 1-.4472656 1-1S96.0439453 97.150032 95.4912109 97.150032zM80.7988281 78.4635086h.0009766c.0595703.0009766.1738281.015625.2714844.1142578l13.3085938 13.4345703c.1484375.1503906.1474609.3945313-.0019531.5419922l-4.5273438 4.4853516c-.1484375.1474609-.3916016.1464844-.5419922-.0029297-.0991669-.1000977-13.7318268-13.8617783-13.3095703-13.4355469-.1482468-.1497421-.1477127-.3933563.0029297-.5410156l4.5273438-4.4853516C80.6259766 78.478157 80.7392578 78.4635086 80.7988281 78.4635086zM77.7929688 78.406868l-1.9306641 1.9189453-1.756958-1.779541c.340271-.2958984.6846313-.5856934 1.0079346-.9060059.3270874-.3239746.6196899-.6689453.9203491-1.0090332L77.7929688 78.406868zM73.7050781 76.219368c-3.5136719 3.4804688-8.1533203 5.3701172-13.1210938 5.3613281-4.9482422-.0234375-9.5898438-1.9716797-13.0712891-5.4853516-3.4833984-3.5166016-5.3896484-8.1787109-5.3671875-13.1279297.0224609-4.9482422 1.9697266-9.5908203 5.484375-13.0712891 3.4951172-3.4638672 8.1230469-5.3671875 13.0390625-5.3671875.0292969 0 .0595703 0 .0888672 0 4.9501953.0234375 9.59375 1.9726563 13.0771484 5.4902344C81.0234375 57.275032 80.9648438 69.0279617 73.7050781 76.219368zM26.4257813 12.8521814h47.0703125c1.234375 0 2.2392578 1.0048828 2.2392578 2.2392578v34.0541992c-.1629028-.1762695-.3082886-.362793-.4785156-.534668-7.711853-7.7827148-20.1452637-8.0668945-28.2312622-.855957v-.2119141H15.9453735c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1H45.242981c-1.0163574 1.1572266-1.9056396 2.4003906-2.6278076 3.7294922H15.9453735c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1h25.7272339c-.491333 1.2006836-.8713379 2.4467773-1.1265259 3.7285156h-24.600708c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1h24.3042603c-.2770309 2.8127632.0150566 5.493782.7647095 7.987793H34.522583c-.7480469 0-1.3533936.6049805-1.3533936 1.3530273s.6053467 1.3535156 1.3533936 1.3535156h7.5459595c.9884644 2.1245117 2.3259888 4.0939941 4.024231 5.8081055 3.8786507 3.9149933 9.0611839 6.0771484 14.5810547 6.0771484 4.3088379 0 8.4053955-1.3383789 11.8498535-3.7880859l1.9577637 1.9819336c-.8570251.9824829-.7514877 2.3783188.0976563 3.2348633l1.15625 1.1672363v8.4147949c0 1.2353516-1.0048828 2.2402344-2.2392578 2.2402344H12.9755859c-1.2353516 0-2.2402344-1.0048828-2.2402344-2.2402344V28.5416336c6.7588577 0 4.6871595 0 11.4501953 0 2.3378906 0 4.2402344-1.9013672 4.2402344-4.2392578V12.8521814zM24.421875 14.2662439v10.0351553c0 1.2353516-1.0048828 2.2402344-2.2402344 2.2402344H12.1455078L24.421875 14.2662439zM77.7353516 94.5914383v-6.3959961l8.8705444 8.9545898h-9.7518921C77.3988037 96.4366531 77.7353516 95.556282 77.7353516 94.5914383zM103 97.150032h-3.6552734c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1H103c.5527344 0 1-.4472656 1-1S103.5527344 97.150032 103 97.150032z"
-                    fill="currentColor"
-                />
-            </svg>
-        ),
-        title: "Project Monitoring & Reporting",
-        desc: "We provide comprehensive project monitoring and reporting services to keep stakeholders informed about project progress, milestones achieved, and any potential issues.",
-    },
+	{
+		svg: (
+			<svg
+				fillRule="evenodd"
+				clipRule="evenodd"
+				imageRendering="optimizeQuality"
+				shapeRendering="geometricPrecision"
+				textRendering="geometricPrecision"
+				viewBox="0 0 1707 1707"
+				width={80}
+				height={80}
+				fill="currentColor"
+			>
+				<path
+					d="M903 1294c-83,0 -152,-62 -165,-142l-85 0c-15,0 -27,-12 -27,-26l0 -244 -234 0 0 67 77 0c15,0 27,12 27,27l0 207c0,15 -12,27 -27,27l-207 0c-15,0 -27,-12 -27,-27l0 -207c0,-15 12,-27 27,-27l77 0 0 -188 -60 0c-15,0 -27,-12 -27,-27l0 -134c0,-15 12,-27 27,-27l174 0c15,0 26,12 26,27l0 134c0,15 -11,27 -26,27l-61 0 0 67 234 0 0 -244c0,-15 12,-26 27,-26l85 0c13,-61 66,-106 130,-106 73,0 132,59 132,132 0,73 -59,132 -132,132 -64,0 -117,-45 -130,-105l-59 0 0 488 59 0c13,-80 82,-141 165,-141 93,0 168,75 168,168 0,92 -75,168 -168,168zm203 412l-906 0c-74,0 -134,-60 -134,-134l0 -1238c0,-74 60,-134 134,-134l200 0 50 -84c5,-8 14,-13 23,-13l54 0c28,-136 224,-136 253,0l53 0c10,0 18,5 23,13l51 84 199 0c74,0 135,60 135,134l0 1238c0,74 -61,134 -135,134zm-738 -1453l-168 0c-44,0 -81,36 -81,81l0 1238c0,45 37,81 81,81l906 0c45,0 81,-36 81,-81l0 -1238c0,-45 -36,-81 -81,-81l-167 0c9,15 50,76 50,90 0,15 -14,27 -27,26l-617 0c-21,0 -34,-22 -23,-40l46 -76zm501 -12l-51 -85 -62 0c-15,0 -27,-12 -27,-27 0,-41 -34,-75 -76,-75 -42,0 -76,34 -76,75 0,15 -12,27 -26,27l-63 0 -96 160 522 0 -45 -75zm-194 -104c-29,0 -70,7 -70,-27 0,-33 41,-26 70,-26 35,0 35,53 0,53zm332 1288l-708 0c-35,0 -35,-53 0,-53l708 0c35,0 35,53 0,53zm0 145l-708 0c-35,0 -35,-53 0,-53l708 0c35,0 35,53 0,53zm580 -306l0 -139 -194 0 0 139 194 0zm0 -192l0 -301 -75 0 0 301 75 0zm0 -354l0 -139 -194 0 0 139 194 0zm-194 53l0 301 66 0 0 -301 -66 0zm-53 519l0 -857c0,-52 42,-94 94,-94l113 0c52,0 94,42 94,94l0 120 0 737 -3 13 -124 249c-10,20 -38,20 -48,0l-123 -250 -3 -12zm53 -764l194 0c0,-152 17,-134 -153,-134 -23,0 -41,18 -41,41l0 93zm17 791l80 163 81 -163 -161 0zm-1105 -610l121 0 0 -81 -121 0 0 81zm-16 450l154 0 0 -154 -154 0 0 154zm500 -573c0,45 35,79 79,79 43,0 79,-35 79,-79 0,-43 -36,-79 -79,-79 -43,0 -79,35 -79,79zm114 427c-63,0 -114,52 -114,115 0,63 51,114 114,114 64,0 115,-51 115,-114 0,-63 -51,-115 -115,-115z"
+					fill="currentColor"
+				/>
+			</svg>
+		),
+		title: "Project Planning & Strategy",
+		desc: "Our expert consultants develop robust project plans and strategies, analyze project requirements, and create a roadmap for successful project execution.",
+	},
+	{
+		svg: (
+			<svg viewBox="0 0 68 68" fill="currentColor" width={80} height={80}>
+				<path
+					fill="currentColor"
+					d="m66.1 29.4-7-.9c-.7-3-1.8-5.8-3.5-8.4l4.2-5.5c.3-.5.3-1.1-.1-1.5l-5-5c-.4-.4-.9-.4-1.3-.1l-5.6 4.3c-2.6-1.6-5.4-2.8-8.4-3.5l-.9-7c-.1-.5-.5-.9-1-.9h-7.2c-.5 0-.9.4-1 .9l-.9 7c-3 .7-5.8 1.8-8.4 3.5L14.5 8c-.4-.3-1-.3-1.3.1l-5.1 5.1c-.4.4-.4.9-.1 1.3l4.3 5.6c-1.6 2.6-2.8 5.4-3.5 8.4l-7 .9c-.5.1-.9.5-.9 1v7.2c0 .5.4.9.9 1l7 .9c.7 3 1.8 5.8 3.5 8.4L8 53.5c-.3.4-.3 1 .1 1.3l5.1 5.1c.4.4.9.4 1.3.1l5.6-4.3c2.6 1.6 5.4 2.8 8.4 3.5l.9 7c.1.5.5.9 1 .9h7.2c.5 0 .9-.4 1-.9l.9-7c3-.7 5.8-1.8 8.4-3.5l5.5 4.2c.2.1.5.2.7.2.3 0 .6-.1.8-.3l5-5c.4-.4.4-.9.1-1.3l-4.3-5.6c1.6-2.6 2.8-5.4 3.5-8.4l7-.9c.5-.1.9-.5.9-1v-7.2c-.1-.5-.5-.9-1-1zM65 36.7l-6.8.9c-.4.1-.8.4-.9.8-.6 3.2-1.9 6.2-3.7 8.9-.2.4-.2.8 0 1.2l4.2 5.4-3.8 4-5.4-4.2c-.3-.3-.8-.3-1.2 0-2.7 1.8-5.7 3.1-8.9 3.7-.4.1-.7.4-.8.9l-1 6.7h-5.5l-.9-6.8c-.1-.4-.4-.8-.8-.9-3.2-.6-6.2-1.9-8.9-3.7-.4-.2-.8-.2-1.2 0L14 57.9 10.1 54l4.1-5.4c.3-.4.3-.9 0-1.3-1.8-2.7-3-5.6-3.6-8.8-.1-.4-.4-.7-.9-.8l-6.7-1v-5.5l6.8-.9c.4-.1.8-.4.9-.8.6-3.2 1.9-6.2 3.7-8.9.2-.4.2-.8 0-1.2L10.1 14l3.9-3.9 5.4 4.1c.2.2.4.2.7.2.2 0 .5-.1.6-.2 2.7-1.8 5.6-3 8.8-3.6.4-.1.7-.4.8-.9l1-6.7h5.5l.9 6.8c.1.4.4.8.8.9 3.2.6 6.2 1.9 8.9 3.7.4.2.8.2 1.2 0l5.4-4.2 3.9 3.9-4.2 5.4c-.3.3-.3.8 0 1.2 1.8 2.7 3.1 5.7 3.7 8.9.1.4.4.7.9.8l6.8.9v5.4z"
+				/>
+				<path
+					fill="currentColor"
+					d="M34 15.5c-10.2 0-18.5 8.3-18.5 18.5S23.8 52.5 34 52.5 52.5 44.2 52.5 34 44.2 15.5 34 15.5zm0 35c-9.1 0-16.5-7.4-16.5-16.5S24.9 17.5 34 17.5 50.5 24.9 50.5 34 43.1 50.5 34 50.5z"
+				/>
+				<path
+					fill="currentColor"
+					d="M34 19c-.8 0-1.5.4-1.9 1.2L21.8 39.8c-.4.7-.3 1.5.1 2.1.4.7 1.1 1 1.8 1h20.7c.8 0 1.5-.4 1.8-1 .4-.7.4-1.5.1-2.1L35.9 20.2c-.4-.7-1.1-1.2-1.9-1.2zm10.5 21.9c0 .1-.1.1-.1.1H23.7s-.1 0-.1-.1v-.2l10.3-19.6s0-.1.1-.1.1.1.1.1l10.3 19.6c.1.1.1.1.1.2z"
+				/>
+				<path
+					fill="currentColor"
+					d="M34 36.4c-.5 0-.9.2-1.2.5-.3.3-.5.7-.5 1.2s.2.9.5 1.2c.3.3.7.5 1.2.5s.9-.2 1.2-.5c.3-.3.5-.7.5-1.2s-.2-.9-.5-1.2c-.3-.3-.7-.5-1.2-.5zM32.3 28.6l.6 6.9h2.2l.6-6.9v-2.4h-3.4z"
+				/>
+			</svg>
+		),
+		title: "Risk Management",
+		desc: "We conduct thorough risk assessments, develop contingency plans, and provide ongoing monitoring to minimize project uncertainties.",
+	},
+	{
+		svg: (
+			<svg viewBox="0 0 66 66" width={80} height={80}>
+				<path
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+					d="M35.1 9.8h6.7c2.2 0 4 1.8 4 4v10.4M44.3 63.4c-.7.5-1.5.8-2.4.8H6.1c-2.2 0-4-1.8-4-4V13.8c0-2.2 1.8-4 4-4h7.3"
+				/>
+				<path
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+					d="M31.9,12.9H16.5c-1.7,0-3.1-1.4-3.1-3.1V8.2c0-0.8,0.6-1.4,1.4-1.4h18.7c0.8,0,1.4,0.6,1.4,1.4v1.6 C35,11.5,33.6,12.9,31.9,12.9z"
+				/>
+				<path
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+					d="M26.5 4.3c0 1.4-1.1 2.5-2.5 2.5-1.4 0-2.5-1.1-2.5-2.5 0-1.4 1.1-2.5 2.5-2.5C25.4 1.7 26.5 2.9 26.5 4.3zM52.5 33.8c1.5-1 2.5-2.8 2.5-4.7 0-3.2-2.6-5.8-5.8-5.8-3.2 0-5.8 2.6-5.8 5.8 0 2 1 3.7 2.5 4.8M47.2 31.7c-.8-.6-1.3-1.6-1.3-2.7 0-1.8 1.5-3.3 3.3-3.3s3.3 1.5 3.3 3.3c0 1.1-.5 2-1.3 2.6"
+				/>
+				<path
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+					d="M45.8,34.6c0-1.8,1.5-3.3,3.3-3.3c1.8,0,3.3,1.5,3.3,3.3"
+				/>
+				<path
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+					d="M63.9,51.1c-0.9,8.1-8.2,14-16.3,13.1c-8.1-0.9-14-8.2-13.1-16.3c0.9-8.1,8.2-14,16.3-13.1 C58.9,35.6,64.8,42.9,63.9,51.1z"
+				/>
+				<path
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+					d="M59.9,50.6c-0.7,5.9-6,10.2-11.9,9.6c-5.9-0.7-10.2-6-9.6-11.9c0.7-5.9,6-10.2,11.9-9.6 C56.3,39.3,60.6,44.7,59.9,50.6z"
+				/>
+				<line
+					x1={51.9}
+					x2={50.4}
+					y1={52.5}
+					y2={50.9}
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+				/>
+				<line
+					x1={47.7}
+					x2={47.1}
+					y1={48.2}
+					y2={47.6}
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+				/>
+				<path
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+					d="M51.1,49.4c0,1.1-0.9,1.9-1.9,1.9c-1.1,0-1.9-0.9-1.9-1.9s0.9-1.9,1.9-1.9C50.2,47.5,51.1,48.4,51.1,49.4z"
+				/>
+				<line
+					x1={49.1}
+					x2={49.1}
+					y1={40.9}
+					y2={41.8}
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+				/>
+				<line
+					x1={49.1}
+					x2={49.1}
+					y1={57.1}
+					y2={58}
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+				/>
+				<line
+					x1={40.6}
+					x2={41.5}
+					y1={49.4}
+					y2={49.4}
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+				/>
+				<line
+					x1={56.8}
+					x2={57.7}
+					y1={49.4}
+					y2={49.4}
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+				/>
+				<line
+					x1={43.1}
+					x2={43.8}
+					y1={43.4}
+					y2={44.1}
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+				/>
+				<line
+					x1={54.5}
+					x2={55.2}
+					y1={54.8}
+					y2={55.5}
+					fill="none"
+					stroke="currentColor"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+					strokeMiterlimit={10}
+					strokeWidth={1.5}
+				/>
+				<g fill="#000000">
+					<line
+						x1={43.1}
+						x2={43.8}
+						y1={55.5}
+						y2={54.8}
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+					/>
+					<line
+						x1={54.5}
+						x2={55.2}
+						y1={44.1}
+						y2={43.4}
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+					/>
+				</g>
+				<g fill="#000000">
+					<path
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+						d="M14,58.4H9.3c-0.6,0-1-0.5-1-1v-4.7c0-0.6,0.5-1,1-1H14c0.6,0,1,0.5,1,1v4.7C15,57.9,14.5,58.4,14,58.4z"
+					/>
+					<polyline
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+						points="11.1 54.3 12.6 55.8 16.7 51.6"
+					/>
+					<line
+						x1={21.3}
+						x2={29.4}
+						y1={57.4}
+						y2={57.4}
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+					/>
+					<line
+						x1={21.3}
+						x2={26.3}
+						y1={52.6}
+						y2={52.6}
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+					/>
+					<path
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+						d="M14,47.2H9.3c-0.6,0-1-0.5-1-1v-4.7c0-0.6,0.5-1,1-1H14c0.6,0,1,0.5,1,1v4.7C15,46.7,14.5,47.2,14,47.2z"
+					/>
+					<polyline
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+						points="11.1 43.1 12.6 44.6 16.7 40.4"
+					/>
+					<line
+						x1={21.3}
+						x2={29.4}
+						y1={46.2}
+						y2={46.2}
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+					/>
+					<line
+						x1={21.3}
+						x2={26.3}
+						y1={41.4}
+						y2={41.4}
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+					/>
+					<g fill="#000000">
+						<path
+							fill="none"
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeMiterlimit={10}
+							strokeWidth={1.5}
+							d="M14,36H9.3c-0.6,0-1-0.5-1-1v-4.7c0-0.6,0.5-1,1-1H14c0.6,0,1,0.5,1,1V35C15,35.5,14.5,36,14,36z"
+						/>
+						<polyline
+							fill="none"
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeMiterlimit={10}
+							strokeWidth={1.5}
+							points="11.1 31.9 12.6 33.4 16.7 29.2"
+						/>
+						<line
+							x1={21.3}
+							x2={29.4}
+							y1={35}
+							y2={35}
+							fill="none"
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeMiterlimit={10}
+							strokeWidth={1.5}
+						/>
+						<line
+							x1={21.3}
+							x2={26.3}
+							y1={30.2}
+							y2={30.2}
+							fill="none"
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeMiterlimit={10}
+							strokeWidth={1.5}
+						/>
+					</g>
+					<g fill="#000000">
+						<path
+							fill="none"
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeMiterlimit={10}
+							strokeWidth={1.5}
+							d="M14,24.8H9.3c-0.6,0-1-0.5-1-1V19c0-0.6,0.5-1,1-1H14c0.6,0,1,0.5,1,1v4.7C15,24.3,14.5,24.8,14,24.8z"
+						/>
+						<polyline
+							fill="none"
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeMiterlimit={10}
+							strokeWidth={1.5}
+							points="11.1 20.7 12.6 22.1 16.7 18"
+						/>
+						<line
+							x1={21.3}
+							x2={39.7}
+							y1={23.8}
+							y2={23.8}
+							fill="none"
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeMiterlimit={10}
+							strokeWidth={1.5}
+						/>
+						<line
+							x1={21.3}
+							x2={34.7}
+							y1={19}
+							y2={19}
+							fill="none"
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeMiterlimit={10}
+							strokeWidth={1.5}
+						/>
+					</g>
+				</g>
+				<g fill="#000000">
+					<line
+						x1={16.4}
+						x2={24.5}
+						y1={9.4}
+						y2={9.4}
+						fill="none"
+						stroke="currentColor"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeMiterlimit={10}
+						strokeWidth={1.5}
+					/>
+				</g>
+			</svg>
+		),
+		title: "Project Scheduling",
+		desc: "Our consultants use advanced scheduling techniques to optimize resource allocation and keep your project on track.",
+	},
+	{
+		svg: (
+			<svg viewBox="0 0 512 512" width={80} height={80}>
+				<path
+					fill="currentColor"
+					d="M222.559 176.297a7.999 7.999 0 0 1 5.827-9.697c4.287-1.072 8.628 1.54 9.697 5.827 2.229 8.94 11.49 11.899 18.771 11.736 6.283-.15 12.337-2.37 15.066-5.526 1.447-1.673 1.979-3.613 1.677-6.106-.52-4.278-3.128-9.52-18.82-12.096-23.757-3.9-29.306-16.317-29.778-26.046-.651-13.406 8.585-24.623 23-27.96v-4.252a8 8 0 0 1 16 0v4.182c9.362 2.055 18.288 7.973 22.942 19.058a8 8 0 0 1-4.279 10.473 7.998 7.998 0 0 1-10.473-4.279c-3.777-8.996-13.013-11.31-20.488-9.615-1.864.423-11.141 2.97-10.721 11.618.111 2.301.408 8.41 16.388 11.034 19.607 3.219 30.411 11.952 32.111 25.957.849 6.993-1.039 13.39-5.458 18.5-4.553 5.263-11.762 8.948-20.021 10.392v3.987a8 8 0 0 1-16 0v-4.118c-12.714-2.576-22.468-11.142-25.441-23.069zm-54.606-23.467c0-48.549 39.498-88.047 88.046-88.047 48.549 0 88.047 39.498 88.047 88.047S304.549 240.877 256 240.877c-48.549 0-88.047-39.498-88.047-88.047zm16 0c0 39.727 32.32 72.047 72.046 72.047 39.727 0 72.047-32.32 72.047-72.047S295.727 80.783 256 80.783c-39.727 0-72.047 32.32-72.047 72.047zm224.844 269.841v14.892l16.051.138c5.33.046 10.332 2.174 14.084 5.991 3.752 3.818 5.794 8.855 5.748 14.186l-.226 26.288c-.094 10.972-9.051 19.833-20.002 19.833h-.174l-136.556-1.173c-11.03-.095-19.927-9.146-19.833-20.177l.226-26.287c.095-10.973 9.052-19.834 20.002-19.834h.174l8.131.07-.105-69.325c-.028-18.314 2.173-39.047 18.708-53.949 4.058-3.658 9.02-7.84 14.273-12.268 15.091-12.718 33.872-28.546 49.209-46.681.233-.275.484-.534.751-.776 12.774-11.517 31.927-11.391 43.603.286 1.942 1.942 3.579 4.008 4.906 6.167.945-3.655 1.398-7.453 1.383-11.46l-.36-94.363c-.205-54.217 27.456-58.875 35.938-59.01 17.489-.326 33.86 14.245 34.319 30.475l4.922 173.71c.505 17.874-6.046 34.139-18.945 47.036l-76.227 76.231zm15.913 31.03-136.556-1.173-.033-.001c-2.157 0-3.988 1.812-4.007 3.973l-.226 26.286c-.019 2.172 1.8 4.021 3.971 4.04l136.556 1.173c2.202.027 4.021-1.8 4.04-3.97l.226-26.288c.012-1.426-.721-2.387-1.16-2.833-.437-.445-1.385-1.195-2.811-1.207zm-31.913-16.275v-18.068c0-2.122.843-4.156 2.343-5.657l78.573-78.573c9.849-9.847 14.648-21.713 14.265-35.27l-4.922-173.71c-.213-7.535-9.341-15.068-18.069-14.93-12.746.204-20.295 16.261-20.194 42.951l.36 94.364c.054 14.665-4.683 27.658-14.482 39.72a271.89 271.89 0 0 1-5.291 6.313c-.327.47-36.866 37.578-41.099 41.812a8 8 0 0 1-11.313-11.314c4.316-4.315 30.823-30.062 39.722-40.285 3.558-5.397 5.708-12.731-1.139-19.578-5.64-5.641-14.679-5.627-21.208-.039-16.131 18.971-35.302 35.127-50.73 48.13-5.372 4.527-10.012 8.438-13.872 11.918-11.835 10.666-13.444 26.509-13.421 42.041l.105 69.486 80.372.689zm-95.014 39.952a8.168 8.168 0 1 0 6.035-15.18 8.168 8.168 0 0 0-6.035 15.18zm-53.899-21.016.226 26.287c.095 11.03-8.802 20.082-19.833 20.177l-136.556 1.173h-.174c-10.952.001-19.908-8.86-20.002-19.833l-.226-26.288c-.046-5.33 1.996-10.367 5.748-14.186 3.752-3.817 8.755-5.945 14.085-5.991l16.051-.138v-14.892l-76.23-76.229C14.075 333.545 7.524 317.28 8.029 299.407l4.922-173.712c.458-16.229 16.815-30.76 34.318-30.475 8.482.136 36.144 4.793 35.938 59.01l-.36 94.364c-.015 4.007.438 7.805 1.383 11.459 1.328-2.159 2.963-4.224 4.906-6.167 11.676-11.677 30.829-11.803 43.602-.286.268.241.519.5.751.775 15.338 18.135 34.118 33.963 49.209 46.681 5.253 4.428 10.216 8.609 14.274 12.268 16.535 14.902 18.736 35.635 18.708 53.949l-.105 69.325 8.131-.07h.175c5.266 0 10.234 2.037 14.01 5.749 3.819 3.753 5.947 8.755 5.993 14.085zm-124.681-37.005v18.068l80.373-.69.105-69.486c.023-15.532-1.586-31.375-13.42-42.041-3.861-3.48-8.5-7.391-13.873-11.918-15.428-13.003-34.599-29.159-50.73-48.13-6.528-5.588-15.567-5.601-21.207.038-6.848 6.849-4.697 14.182-1.139 19.579 8.899 10.226 35.407 35.971 39.721 40.285a8 8 0 1 1-11.313 11.314c-4.232-4.232-40.771-41.342-41.099-41.812a273.925 273.925 0 0 1-5.291-6.312c-9.8-12.064-14.537-25.057-14.482-39.721l.36-94.365c.101-26.69-7.448-42.747-20.195-42.951-8.723-.161-17.855 7.395-18.069 14.929l-4.922 173.711c-.383 13.556 4.417 25.422 14.265 35.269l78.573 78.573a8.014 8.014 0 0 1 2.343 5.66zm108.908 63.429-.226-26.287c-.012-1.426-.762-2.373-1.208-2.812-.442-.435-1.391-1.16-2.796-1.16l-.035.001-136.556 1.173c-1.426.012-2.374.762-2.812 1.207-.438.446-1.172 1.407-1.16 2.833l.226 26.288c.019 2.159 1.85 3.97 4.007 3.971l.033-.001 136.556-1.173c2.171-.018 3.989-1.868 3.971-4.04zm-19.93-20.589a8.17 8.17 0 0 0-4.573 10.609 8.169 8.169 0 1 0 4.573-10.609zm-97.012-290.849v-37.036a8 8 0 0 1 5.126-7.466l18.822-7.245a124.487 124.487 0 0 1 11.915-28.739l-8.192-18.445a7.999 7.999 0 0 1 1.654-8.904l26.188-26.188a8.002 8.002 0 0 1 8.904-1.655l18.448 8.193a124.51 124.51 0 0 1 28.735-11.914l7.246-18.824A8.003 8.003 0 0 1 237.482 8h37.035a8 8 0 0 1 7.466 5.126l7.246 18.824a124.535 124.535 0 0 1 28.735 11.914l18.448-8.193a8.003 8.003 0 0 1 8.904 1.655l26.188 26.188a7.999 7.999 0 0 1 1.654 8.904l-8.19 18.44a124.509 124.509 0 0 1 11.917 28.745l18.819 7.244a8 8 0 0 1 5.126 7.466v37.035a8 8 0 0 1-5.126 7.466l-18.824 7.246a124.491 124.491 0 0 1-11.914 28.735l8.193 18.448a7.999 7.999 0 0 1-1.654 8.904l-26.188 26.188a7.997 7.997 0 0 1-8.904 1.654l-18.44-8.19a124.498 124.498 0 0 1-28.745 11.917l-7.243 18.818a8 8 0 0 1-7.466 5.126h-37.036a8 8 0 0 1-7.466-5.126l-7.246-18.824a124.473 124.473 0 0 1-28.735-11.914l-18.448 8.193a8.002 8.002 0 0 1-8.904-1.654l-26.188-26.188a7.999 7.999 0 0 1-1.654-8.904l8.19-18.44a124.487 124.487 0 0 1-11.916-28.745l-18.819-7.244a8 8 0 0 1-5.128-7.466zm16-5.494 17.543 6.753a7.998 7.998 0 0 1 4.909 5.614 108.624 108.624 0 0 0 13.208 31.861 8.004 8.004 0 0 1 .5 7.442l-7.636 17.193 18.42 18.419 17.2-7.639a7.996 7.996 0 0 1 7.441.5 108.657 108.657 0 0 0 31.851 13.206 7.998 7.998 0 0 1 5.614 4.908l6.755 17.549h26.05l6.752-17.543a7.996 7.996 0 0 1 5.614-4.908 108.638 108.638 0 0 0 31.86-13.208 8.004 8.004 0 0 1 7.442-.5l17.193 7.636 18.419-18.42-7.639-17.2a7.999 7.999 0 0 1 .499-7.441 108.62 108.62 0 0 0 13.206-31.852 8 8 0 0 1 4.909-5.614l17.549-6.755v-26.05l-17.543-6.753a8.002 8.002 0 0 1-4.909-5.614 108.651 108.651 0 0 0-13.208-31.86 8.004 8.004 0 0 1-.5-7.442l7.636-17.193-18.42-18.419-17.2 7.639a7.999 7.999 0 0 1-7.441-.5 108.647 108.647 0 0 0-31.852-13.206 8 8 0 0 1-5.614-4.909L269.024 24h-26.049l-6.755 17.549a8 8 0 0 1-5.614 4.909 108.631 108.631 0 0 0-31.852 13.206 8.002 8.002 0 0 1-7.441.499l-17.2-7.639-18.42 18.42 7.638 17.197a8.001 8.001 0 0 1-.499 7.442 108.576 108.576 0 0 0-13.206 31.854 7.998 7.998 0 0 1-4.909 5.614l-17.547 6.754v26.049z"
+				/>
+			</svg>
+		),
+		title: "Cost Control & Budget Management",
+		desc: "We help you maintain control over project costs, cost analysis, and cost optimization strategies to ensure your project remains within budget.",
+	},
+	{
+		svg: (
+			<svg width={82} height={82} viewBox="0 0 512 512">
+				<path
+					fill="#DFF6FF"
+					stroke="none"
+					d="M0 0L0 198C8.4928 198 19.9337 196.002 28 198.815C45.8137 205.028 59.1133 224.098 79 219.127C81.7735 218.433 86.2253 218.121 88.3773 216.066C91.6478 212.944 85.969 208.904 83.9992 206.961C76.2639 199.329 70.6556 190.501 67.7454 180C55.8146 136.95 78.8464 93.6426 125 90L118.662 70L128 59L151 36L161 27.4468L187 41.2654L218 30L224 0L0 0z"
+				/>
+				<path
+					fill="currentColor"
+					stroke="none"
+					d="M218 30L187 40.7384L161 26.8279L150 36L127 59L117.993 70L125 90C77.4543 92.0417 55.874 138.164 67.7454 181C70.4985 190.934 75.6725 199.707 83.0139 206.961C84.8136 208.739 90.503 212.36 88.2485 215.451C85.708 218.933 71.5351 221.743 67.5756 220.486C53.722 216.088 42.7596 203.614 29 198.815C20.6705 195.91 8.77341 198 0 198L0 324L0 357C0 360.395 -1.13373 366.416 1.02778 369.298C4.984 374.573 19.8552 376.618 26 378.667C49.7217 386.574 72.8204 397 98 397L99 390C105.919 395.027 117.131 398.567 122.4 405.329C126.491 410.578 126.002 417.544 131.301 422.671C135.748 426.974 143.478 427.123 147.272 431.433C156.284 441.669 155.497 453.627 173 454C174.135 467.89 183.677 478.695 198 479C198.655 493.334 209.602 503.992 224 503.992C228.451 503.992 234.504 500.577 238.576 501.622C242.759 502.695 246.163 507.545 250 509.586C260.259 515.043 275.746 512.601 283.319 503.826C286.873 499.709 287.24 491.009 291.317 488.164C302.558 480.322 313.257 480.036 314 463C327.773 461.874 338.358 452.049 339 438C348.552 437.562 357.718 432.041 361.521 423C363.144 419.14 362.918 413.658 365.6 410.39C369.544 405.584 378.525 402.984 384 400.247L476 354.247C484.813 349.84 505.649 343.954 510.972 335.61C515.453 328.585 512 310.265 512 302L512 214C505.66 214 498.058 212.861 492 214.966C483.728 217.841 475.567 225.803 467 227.141C460.339 228.182 449.613 223.027 443 221.373C438.343 220.209 426.756 219.472 423.752 215.475C421.529 212.518 427.266 208.719 428.986 206.985C436.281 199.633 441.487 190.987 444.255 181C455.944 138.819 433.873 92.0128 387 90L394.007 70L385 59L362 36L351 26.8279L325 40.7384L294 30C293.507 23.8021 292.264 4.99866 287.262 1.02777C284.34 -1.29138 277.51 0 274 0L239 0C235.29 0 227.815 -1.41412 224.738 1.02777C219.736 4.99866 218.493 23.8022 218 30z"
+				/>
+				<path
+					fill="#DFF6FF"
+					stroke="none"
+					d="M288 0L294 30L325 41.2654L351 27.4468L361 36L384 59L393.338 70L387 90C432.706 93.6072 456.575 138.52 443.964 181C440.949 191.153 435.437 199.501 428.001 206.985C426.22 208.778 421.089 212.414 423.086 215.475C425.779 219.602 438.438 220.486 443 221.627C449.751 223.314 460.185 228.388 467 227.502C475.398 226.411 484.099 218.526 492 215.352C498.072 212.912 505.569 214 512 214L512 0L288 0M238 17C237.151 23.5771 236.38 38.5673 231.436 43.2724C225.903 48.5384 212.164 49.6946 205 52.8619C199.863 55.133 192.622 61.6403 187 61.5988C178.752 61.5378 171.374 47.3035 163 49.446C158.778 50.5261 154.954 56.0457 152 59C148.111 62.8885 141.123 67.7004 139.238 73C138.012 76.4449 140.725 80.8842 142.011 84C146.802 95.6116 154.827 100.862 165 108C200.913 55.2058 273.355 40.3488 324 82.0841C332.534 89.1166 340.491 97.3316 346 107C357.43 101.907 365.575 94.4399 370.201 83C371.378 80.089 373.884 76.2247 372.759 73C370.915 67.7122 363.869 62.869 360 59C357.038 56.0376 353.844 51.6438 350 49.8171C341.843 45.9413 333.092 61.5389 325 61.5988C319.378 61.6403 312.137 55.133 307 52.8619C299.836 49.6946 286.097 48.5384 280.564 43.2724C275.62 38.5674 274.849 23.5771 274 17L238 17M157 216C174.472 220.921 188.192 224.825 206 220.373C209.396 219.524 220.097 218.683 221.248 214.736C222.3 211.134 216.11 207.144 214.039 204.996C207.761 198.483 203.164 190.603 200.36 182C187.689 143.126 208.875 90.1821 255 90.179C301.258 90.176 324.709 141.903 311.64 182C308.837 190.603 304.239 198.483 297.961 204.996C295.89 207.144 289.7 211.134 290.752 214.736C291.903 218.683 302.604 219.524 306 220.373C323.808 224.825 337.528 220.921 355 216C353.205 209.737 346.631 206.034 342.669 201C336.444 193.09 332.396 183.897 330.616 174C328.779 163.79 328.81 150.214 330.615 140C332.214 130.952 337.212 124.434 331.644 116C296.422 62.6422 210.756 60.6131 178.472 119C174.885 125.488 179.335 131.447 180.714 138C182.961 148.68 183.261 162.202 181.561 173C179.949 183.242 175.737 192.857 169.331 201C165.415 205.977 158.805 209.845 157 216M108 230L90 234L90 235L120 252.011L131.958 260.213L132 276C137.258 275.571 151.518 274.518 154.976 270.262C157.67 266.946 156.775 260.027 157.749 256C159.475 248.868 163.5 243.31 167 237C160.685 234.617 144.914 234.31 141.028 228.57C138.208 224.406 139.967 214.861 140.001 210C140.074 199.396 152.808 195.526 158.3 187C168.191 171.645 167.53 145.863 159.215 130C145.525 103.882 109.554 100.863 91.3904 124C81.816 136.196 80.3839 158.313 83.8989 173C85.9021 181.37 89.7059 188.959 96.0147 194.907C99.2924 197.996 104.761 200.1 106.972 204.104C110.429 210.364 108 222.953 108 230M240 230C217.401 233.043 174.595 238.322 174 267C212.873 259.676 249.905 273.638 287 284.14L320 293.579C324.259 294.793 330.373 297.732 334.852 296.643C339.342 295.551 338 288.42 338 285C338 273.993 340.201 260.487 333.362 251.004C323.165 236.865 288.491 232.221 272 230C272 222.74 269.949 211.839 272.603 205.043C275.055 198.768 284.866 194.79 288.957 189C299.222 174.473 299.992 150.368 293.535 134C276.449 90.6873 216.923 106.988 215.039 150C214.4 164.605 215.085 179.067 224.518 190.999C228.412 195.925 237.157 199.309 239.397 205.043C242.051 211.839 240 222.74 240 230M345 237C354.332 253.825 356 266.886 356 286C377.762 279.114 400.013 263.94 420 252.861C426.96 249.003 438.552 245.791 443 239L404 230C404 222.953 401.571 210.364 405.028 204.104C407.239 200.1 412.708 197.996 415.985 194.907C422.294 188.959 426.098 181.37 428.101 173C432.053 156.487 429.194 133.97 417.535 121.171C398.381 100.141 363.887 105.819 351.377 131C343.598 146.66 344.6 173.528 354.36 188C359.417 195.5 371.817 199.553 371.995 209.001C372.09 214.026 373.878 224.278 370.972 228.57C367.086 234.31 351.315 234.617 345 237M17 215L17 319L17 346C17 348.964 16.1301 353.768 18.0278 356.298C22.6593 362.473 44.4992 366.892 52 368C57.8868 339.479 66.0628 311.255 73.1265 283C75.0588 275.271 83.0109 257.88 80.3063 250.329C79.0812 246.908 73.8811 245.104 71 243.397C62.3642 238.279 53.6246 233.337 45 228.201C36.6983 223.257 26.8809 215.292 17 215M495 234C480.788 238.094 466.975 247.674 454 254.691C430.512 267.395 406.355 278.915 383 291.861C370.158 298.98 355.194 309.662 341 313.502C314.768 320.598 287.727 294.145 261 298.44C244.143 301.148 227.13 313.187 212 320.753C205.237 324.135 198.25 327.176 199.113 336C199.917 344.225 207.872 347.75 215 344.586C235.152 335.642 255.295 312.266 279 325.955C299.006 337.508 317.02 358.471 334 374.086C339.559 379.198 349.282 391.925 357 393.01C364.934 394.126 379.92 382.787 387 379.247L464 340.753C471.149 337.178 491.132 331.291 494.397 323.787C497.394 316.897 495 304.475 495 297L495 234M97 259L68 374L84 379C94.7359 354.053 99.7847 325.122 107.291 299C109.272 292.105 116.712 277.126 114.306 270.213C112.568 265.218 101.521 261.111 97 259M104 373C109.741 376.056 122.289 387.38 128.83 386.122C135.365 384.865 142.516 372.926 148 368.927C164.624 356.806 189.01 366.394 190 388C203.521 389.18 213.817 399.448 215 413C223.897 413.408 231.66 418.227 236.12 426.001C237.861 429.036 238.279 433.802 240.738 436.262C243.944 439.467 250.176 440.102 253.985 443.043C261.178 448.596 266.896 456.186 274 462.079C278.957 466.192 296.312 476.8 296.312 462C296.312 457.081 291.368 453.583 288 450.754L262 429.08C259.389 426.902 252.323 422.941 251.769 419.335C251.199 415.619 258.421 409.542 260 406C268.007 410.623 274.906 417.509 282 423.414C289.613 429.75 299.409 441.63 309 444.486C315.755 446.497 323.12 441.459 320.257 434.015C316.11 423.231 296.773 412.558 288 405.247C285.012 402.757 277.15 398.33 277.041 393.985C276.933 389.69 283.219 384.888 285 381C298.488 389.922 310.575 401.729 323 412.08C327.569 415.887 333.391 422.079 339.995 419.927C354.293 415.27 339.139 401.811 334 397.086C319.512 383.761 304.863 370.48 290 357.576C283.708 352.112 277.624 344.673 270 341.05C250.056 331.573 230.146 363.754 210 363.82C186.924 363.896 173.363 336.455 186.637 318.001C197.2 303.316 220.829 297.855 236 289C211.464 274.01 178.586 283.861 153 289.65C146.426 291.138 131.557 291.6 126.843 296.589C122.354 301.34 121.344 312.809 119.579 319C114.448 336.997 109.7 355.175 104 373M511 336C466.148 362.178 417.298 382.696 371.001 406.248C362.705 410.468 364.589 416.655 360.583 424C356.257 431.93 347.886 437.219 339 438C337.806 451.68 327.297 461.201 314 463C313.238 472.317 308.444 480.202 300 484.597C297.132 486.09 292.124 486.21 290.013 488.738C282.872 497.293 284.27 507.067 271 511L271 512L512 512L512 388L512 353L511 336M0 370L0 512L255 512L255 511C248.828 509.167 244.906 503.026 239 501.392C234.557 500.163 228.738 503.971 224 503.971C210.061 503.971 199.178 492.492 198 479C184.064 478.362 174.785 467.244 173 454C164.181 453.596 156.234 448.81 151.905 440.999C150.195 437.914 149.814 433.23 147.272 430.738C143.068 426.617 135.82 426.456 131.301 421.815C126.309 416.688 126.531 409.496 122.4 404.529C117.264 398.35 106.051 393.753 99 390L98 397C63.8244 397 32.907 377.613 0 370M160 382.028C154.172 384.93 143.945 394.794 141.758 401C139.117 408.493 147.501 414.058 154 410.821C160.124 407.771 170.563 397.794 172.304 391C174.13 383.875 166.093 378.993 160 382.028M187 405.746C180.091 407.345 169.425 418.559 166.859 425C164.403 431.165 169.277 437.837 176 436.703C183.383 435.457 195.001 423.081 197.016 416C198.69 410.117 192.843 404.394 187 405.746M211 430.758C204.719 432.971 194.076 443.788 191.743 450C189.48 456.025 194.305 463.019 201 461.304C207.781 459.567 218.833 448.455 221.257 442C223.672 435.57 217.913 428.322 211 430.758M235 455.859C228.524 458.438 218.448 468.369 216.188 475C213.97 481.507 220.474 488.13 227 485.731C233.716 483.263 244.509 472.965 246.481 466C248.459 459.017 241.617 453.223 235 455.859M262 475C259.746 478.3 253.2 483.899 253.207 487.91C253.227 499.378 281.26 494.607 268.607 480.29C266.716 478.15 264.355 476.562 262 475z"
+				/>
+			</svg>
+		),
+		title: "Stakeholders Engagement",
+		desc: "Our team assists in building strong relationships and ensures smooth project progress with stakeholders throughout the project lifecycle.",
+	},
+	{
+		svg: (
+			<svg viewBox="0 0 110 110" width={85} height={85}>
+				<path
+					d="M14.9453125 74.5826492c0 1.0800781.8789063 1.9589844 1.9599609 1.9589844h8.4814453c1.0800781 0 1.9589844-.8789063 1.9589844-1.9589844v-8.4814453c0-1.0810547-.8789063-1.9599609-1.9589844-1.9599609h-8.4814453c-1.0810547 0-1.9599609.8789063-1.9599609 1.9599609V74.5826492zM25.3457031 66.1012039v8.4404297l-8.4003906.0410156-.0400391-8.4414063L25.3457031 66.1012039zM25.3867188 80.2105789h-8.4814453c-1.0810547 0-1.9599609.8789063-1.9599609 1.9599609v8.4814453c0 1.0800781.8789063 1.9589844 1.9599609 1.9589844h8.4814453c1.0800781 0 1.9589844-.8789063 1.9589844-1.9589844v-8.4814453C27.3457031 81.0894852 26.4667969 80.2105789 25.3867188 80.2105789zM25.3457031 90.6109695l-8.4003906.0410156-.0400391-8.4414063 8.4404297-.0400391V90.6109695zM34.522583 87.7642899h30.9554443c.7480469 0 1.3533936-.6054688 1.3533936-1.3535156s-.6053467-1.3532715-1.3533936-1.3532715H34.522583c-.7480469 0-1.3533325.6052246-1.3533325 1.3532715S33.7745361 87.7642899 34.522583 87.7642899zM33.4648438 25.384407h35.6591797c1.0595703 0 1.9208984-.8564453 1.9208984-1.9101563v-2.6699219c0-1.0585938-.8613281-1.9199219-1.9208984-1.9199219H33.4648438c-1.0585938 0-1.9199219.8613281-1.9199219 1.9199219v2.6699219C31.5449219 24.5279617 32.40625 25.384407 33.4648438 25.384407zM33.5449219 20.884407h35.5v2.5h-35.5V20.884407zM14.9454346 32.4740067c0 .5527344.4472656 1 1 1h54.5722656c.5527344 0 1-.4472656 1-1s-.4472656-1-1-1H15.9454346C15.3927002 31.4740067 14.9454346 31.9212723 14.9454346 32.4740067zM70.5177002 37.2034988H15.9454346c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1h54.5722656c.5527344 0 1-.4472656 1-1S71.0704346 37.2034988 70.5177002 37.2034988zM43.2315674 42.932991H15.9454346c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1h27.2861328c.5527344 0 1-.4472656 1-1S43.7843018 42.932991 43.2315674 42.932991z"
+					fill="currentColor"
+				/>
+				<path
+					d="M19.2879639 73.4967117c.3485012.3486252.9133205.3486404 1.2618408 0l4.434021-4.434082c.3485718-.3483887.3485718-.9130859 0-1.2617188s-.913269-.3486328-1.2619019 0l-3.8030396 3.8029785-1.348999-1.348877c-.3486328-.3486328-.9133301-.3486328-1.2619019 0-.3485718.3483887-.3485718.9130859 0 1.2617188L19.2879639 73.4967117zM19.2879639 89.2589188c.3478794.3479996.9133282.3486328 1.2618408 0l4.434021-4.434082c.3485718-.3486328.3485718-.9133301 0-1.2619629-.3485718-.3483887-.913269-.3483887-1.2619019 0l-3.8030396 3.8029785-1.348999-1.348877c-.3486328-.3486328-.9133301-.3486328-1.2619019 0s-.3485718.9133301 0 1.2619629L19.2879639 89.2589188zM49.4033203 51.6871414c-6.2675781 6.2089844-6.3125 16.3632813-.0996094 22.6347656 3.0189667 3.0473938 7.0552406 4.7392578 11.3691406 4.7392578 4.2460938 0 8.2412109-1.6435547 11.2597656-4.6337891v.0009766c3.0361328-3.0087891 4.7207031-7.0195313 4.7421875-11.2949219.0224609-4.2763672-1.6220703-8.3037109-4.6298828-11.3408203C65.8320313 45.5211258 55.6767578 45.4732742 49.4033203 51.6871414zM70.5244141 73.0064774c0 .0009766 0 .0009766 0 .0009766-2.640625 2.6162109-6.1367188 4.0546875-9.8515625 4.0537109-3.7605896 0-7.2969894-1.4706345-9.9482422-4.1474609-5.4365234-5.4873047-5.3974609-14.3730469.0869141-19.8056641 5.4702301-5.4193077 14.3578796-5.4134598 19.8115234.0927734 2.6318359 2.65625 4.0712891 6.1806641 4.0517578 9.9228516C74.65625 66.8648758 73.1816406 70.3746414 70.5244141 73.0064774z"
+					fill="currentColor"
+				/>
+				<path
+					d="M95.4912109 97.150032H92.581604l3.2045288-3.1748047c.9316406-.9248047.9384766-2.4365234.0146484-3.3701172L82.4912109 77.1695633c-.8584747-.8659592-2.2510834-.9671555-3.2338867-.1264648l-1.9655762-1.9836426c5.0126953-6.9370117 5.177124-16.3164063.4436035-23.4001465V15.0914392c0-2.3378906-1.9013672-4.2392578-4.2392578-4.2392578-53.3372498.0108271-47.6812134-.0176058-48.1243896.0109863-.0977783.005127-.1919556.0239258-.2841187.0571289-.0259399.0095215-.0517578.0158691-.0765991.0275879-.1074219.0488281-.2095337.1105957-.2961426.1972656L9.0244141 26.8346024c-.0874023.0874023-.1491699.1904297-.197998.2990723-.0083008.0183105-.0130005.0375977-.0202026.0566406-.0387573.1020508-.0599365.2075195-.0638428.3166504-.0004272.012207-.007019.0224609-.007019.034668v67.0498047c0 .9648438.336731 1.8452148.8817139 2.5585938H7c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1h88.4912109c.5527344 0 1-.4472656 1-1S96.0439453 97.150032 95.4912109 97.150032zM80.7988281 78.4635086h.0009766c.0595703.0009766.1738281.015625.2714844.1142578l13.3085938 13.4345703c.1484375.1503906.1474609.3945313-.0019531.5419922l-4.5273438 4.4853516c-.1484375.1474609-.3916016.1464844-.5419922-.0029297-.0991669-.1000977-13.7318268-13.8617783-13.3095703-13.4355469-.1482468-.1497421-.1477127-.3933563.0029297-.5410156l4.5273438-4.4853516C80.6259766 78.478157 80.7392578 78.4635086 80.7988281 78.4635086zM77.7929688 78.406868l-1.9306641 1.9189453-1.756958-1.779541c.340271-.2958984.6846313-.5856934 1.0079346-.9060059.3270874-.3239746.6196899-.6689453.9203491-1.0090332L77.7929688 78.406868zM73.7050781 76.219368c-3.5136719 3.4804688-8.1533203 5.3701172-13.1210938 5.3613281-4.9482422-.0234375-9.5898438-1.9716797-13.0712891-5.4853516-3.4833984-3.5166016-5.3896484-8.1787109-5.3671875-13.1279297.0224609-4.9482422 1.9697266-9.5908203 5.484375-13.0712891 3.4951172-3.4638672 8.1230469-5.3671875 13.0390625-5.3671875.0292969 0 .0595703 0 .0888672 0 4.9501953.0234375 9.59375 1.9726563 13.0771484 5.4902344C81.0234375 57.275032 80.9648438 69.0279617 73.7050781 76.219368zM26.4257813 12.8521814h47.0703125c1.234375 0 2.2392578 1.0048828 2.2392578 2.2392578v34.0541992c-.1629028-.1762695-.3082886-.362793-.4785156-.534668-7.711853-7.7827148-20.1452637-8.0668945-28.2312622-.855957v-.2119141H15.9453735c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1H45.242981c-1.0163574 1.1572266-1.9056396 2.4003906-2.6278076 3.7294922H15.9453735c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1h25.7272339c-.491333 1.2006836-.8713379 2.4467773-1.1265259 3.7285156h-24.600708c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1h24.3042603c-.2770309 2.8127632.0150566 5.493782.7647095 7.987793H34.522583c-.7480469 0-1.3533936.6049805-1.3533936 1.3530273s.6053467 1.3535156 1.3533936 1.3535156h7.5459595c.9884644 2.1245117 2.3259888 4.0939941 4.024231 5.8081055 3.8786507 3.9149933 9.0611839 6.0771484 14.5810547 6.0771484 4.3088379 0 8.4053955-1.3383789 11.8498535-3.7880859l1.9577637 1.9819336c-.8570251.9824829-.7514877 2.3783188.0976563 3.2348633l1.15625 1.1672363v8.4147949c0 1.2353516-1.0048828 2.2402344-2.2392578 2.2402344H12.9755859c-1.2353516 0-2.2402344-1.0048828-2.2402344-2.2402344V28.5416336c6.7588577 0 4.6871595 0 11.4501953 0 2.3378906 0 4.2402344-1.9013672 4.2402344-4.2392578V12.8521814zM24.421875 14.2662439v10.0351553c0 1.2353516-1.0048828 2.2402344-2.2402344 2.2402344H12.1455078L24.421875 14.2662439zM77.7353516 94.5914383v-6.3959961l8.8705444 8.9545898h-9.7518921C77.3988037 96.4366531 77.7353516 95.556282 77.7353516 94.5914383zM103 97.150032h-3.6552734c-.5527344 0-1 .4472656-1 1s.4472656 1 1 1H103c.5527344 0 1-.4472656 1-1S103.5527344 97.150032 103 97.150032z"
+					fill="currentColor"
+				/>
+			</svg>
+		),
+		title: "Project Monitoring & Reporting",
+		desc: "We provide comprehensive project monitoring and reporting services to keep stakeholders informed about project progress, milestones achieved, and any potential issues.",
+	},
 ];
 
 export const testimonials = [
-    {
-        img: "https://ds393qgzrxwzn.cloudfront.net/resize/c500x500/cat1/img/images/0/52ooj4559c.jpg",
-        name: "John Smith",
-        designation: "CEO of Radisson, Kumbhalgarh",
-        review: "Working with Impress was a game-changer for our organization. Their team of project management experts helped us navigate through a complex IT system implementation. From project planning to successful execution, their attention to detail and dedication were commendable. Thanks to their guidance, we completed the project ahead of schedule and within budget",
-        rating: "5",
-    },
-    {
-        img: "https://media.istockphoto.com/id/1289220781/photo/portrait-of-happy-smiling-woman-at-desk.jpg?s=612x612&w=0&k=20&c=FtC05luuxRpiKRj5F84e2CiPf0h_ZuX6o7o5JwlNaJM=",
-        name: "Sarah Johnson",
-        designation: "Director of Operations at XYZ Construction Group",
-        review: "I highly recommend Impress for anyone seeking project management consultancy services. Their consultants brought a wealth of knowledge and experience to our construction project, and their meticulous planning and risk management strategies were instrumental in overcoming challenges. The result was a flawlessly executed project that exceeded our expectations",
-        rating: "4",
-    },
-    {
-        img: "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=2000",
-        name: "Mark Davis",
-        designation: "COO of Global Manufacturing Solutions",
-        review: "We are extremely pleased with the exceptional project management consultancy services provided by Impress. Their team was professional, proactive, and highly skilled in handling our large-scale event project. From the initial planning stages to the event's flawless execution, they demonstrated exceptional leadership and problem-solving abilities. They made the entire process stress-free and delivered an unforgettable event experience for our attendees",
-        rating: "5",
-    },
-    {
-        img: "https://img.freepik.com/free-photo/smiling-blonde-business-woman-posing-with-crossed-arms_171337-6291.jpg?w=2000",
-        name: "Susan Miller",
-        designation: "CFO of Global Enterprises Group",
-        review: "From the very first meeting, Impress impressed us with their professionalism and dedication. They worked seamlessly with our internal team and provided valuable insights that improved our project's efficiency and productivity. Their consultants' ability to adapt to our fast-paced environment and deliver results promptly was remarkable",
-        rating: "5",
-    },
+	{
+		img: "https://ds393qgzrxwzn.cloudfront.net/resize/c500x500/cat1/img/images/0/52ooj4559c.jpg",
+		name: "John Smith",
+		designation: "CEO of Radisson, Kumbhalgarh",
+		review: "Working with Impress was a game-changer for our organization. Their team of project management experts helped us navigate through a complex IT system implementation. From project planning to successful execution, their attention to detail and dedication were commendable. Thanks to their guidance, we completed the project ahead of schedule and within budget",
+		rating: "5",
+	},
+	{
+		img: "https://media.istockphoto.com/id/1289220781/photo/portrait-of-happy-smiling-woman-at-desk.jpg?s=612x612&w=0&k=20&c=FtC05luuxRpiKRj5F84e2CiPf0h_ZuX6o7o5JwlNaJM=",
+		name: "Sarah Johnson",
+		designation: "Director of Operations at XYZ Construction Group",
+		review: "I highly recommend Impress for anyone seeking project management consultancy services. Their consultants brought a wealth of knowledge and experience to our construction project, and their meticulous planning and risk management strategies were instrumental in overcoming challenges. The result was a flawlessly executed project that exceeded our expectations",
+		rating: "4",
+	},
+	{
+		img: "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=2000",
+		name: "Mark Davis",
+		designation: "COO of Global Manufacturing Solutions",
+		review: "We are extremely pleased with the exceptional project management consultancy services provided by Impress. Their team was professional, proactive, and highly skilled in handling our large-scale event project. From the initial planning stages to the event's flawless execution, they demonstrated exceptional leadership and problem-solving abilities. They made the entire process stress-free and delivered an unforgettable event experience for our attendees",
+		rating: "5",
+	},
+	{
+		img: "https://img.freepik.com/free-photo/smiling-blonde-business-woman-posing-with-crossed-arms_171337-6291.jpg?w=2000",
+		name: "Susan Miller",
+		designation: "CFO of Global Enterprises Group",
+		review: "From the very first meeting, Impress impressed us with their professionalism and dedication. They worked seamlessly with our internal team and provided valuable insights that improved our project's efficiency and productivity. Their consultants' ability to adapt to our fast-paced environment and deliver results promptly was remarkable",
+		rating: "5",
+	},
 ];
 
 // About Us
 export const ourTeam = [
-    {
-        img: 'https://static.wixstatic.com/media/da252a_bb80d314342c41b4a0d56efd5973df4f~mv2_d_1280_1253_s_2.jpeg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Firoz%20pathan.jpeg',
-        name: 'Firoz Pathan',
-        designation: 'Founder',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/da252a_e8fb989b0a9942a095d4f896b0da269b~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Rupesh%20Padhiar%20-%20Project%20Manager_edited_.jpg',
-        name: 'Rupesh Padhiar',
-        designation: 'Project Manager',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/da252a_121ca21e67734cdfb77a2d20e9ed5c4d~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Sanjay%20Mishra_edited.jpg',
-        name: 'Sanjaya Mishra',
-        designation: 'Sr. Architect',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/da252a_0c1a127630b04428a00fadcce2066244~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Amit%20kumar_edited.jpg',
-        name: 'Amit Kumar',
-        designation: 'Sr. Finishing Manager',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/da252a_929bc536b73a47ef90bbc4b67cf19d62~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Alam153_edited.jpg',
-        name: 'Shahanawaz Alam',
-        designation: 'Sr. MEP Manager',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/da252a_584929c2efb448e29df7904244a91c0b~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Sujit%20Gandhewar_edited.jpg',
-        name: 'Sujit Gandhewar',
-        designation: 'Sr. MEP Manager',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/da252a_b0b4eb1a0c174a5699bde7eee01dc9df~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Kumar%20Dagale%20-%20Civil%20Engineer_edited.jpg',
-        name: 'Kumar Dagale',
-        designation: 'Civil Engineer',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/da252a_0ea3e2921cc74cdc92b528b313873344~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Kamlesh%20sudhra_edited.jpg',
-        name: 'Kamlesh Sudra',
-        designation: 'Finishing Manager',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/da252a_a4703ce96bbf4a048d03f7293c4c20a2~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Arif%20Inamdar_edited.jpg',
-        name: 'Arif Inamdar',
-        designation: 'Mechanical Engineer',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/da252a_9d739b43c1e248fbab3d7bfde1606790~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Pankaj%20Shukla_edited.jpg',
-        name: 'Pankaj Shukla',
-        designation: 'Purchase Manager',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/f35b36_2232a9eb2d7943f3b746be04ca50dff0~mv2.jpeg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Shrinath.jpeg',
-        name: 'Shrinath Chakraverty',
-        designation: 'Project Co-ordinator',
-    },
-    {
-        img: 'https://static.wixstatic.com/media/f35b36_3fac648bbfed4670a3f53a4bf96550a7~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Harsh%20Padhiyar.jpg',
-        name: 'Harsh Padhiyar',
-        designation: 'Finishing Engineer',
-    },
-]
+	{
+		id: 1,
+		img: "https://static.wixstatic.com/media/da252a_bb80d314342c41b4a0d56efd5973df4f~mv2_d_1280_1253_s_2.jpeg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Firoz%20pathan.jpeg",
+		name: "Firoz Pathan",
+		designation: "Founder",
+	},
+	{
+		img: "https://static.wixstatic.com/media/da252a_e8fb989b0a9942a095d4f896b0da269b~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Rupesh%20Padhiar%20-%20Project%20Manager_edited_.jpg",
+		name: "Rupesh Padhiar",
+		designation: "Project Manager",
+	},
+	{
+		img: "https://static.wixstatic.com/media/da252a_121ca21e67734cdfb77a2d20e9ed5c4d~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Sanjay%20Mishra_edited.jpg",
+		name: "Sanjaya Mishra",
+		designation: "Sr. Architect",
+	},
+	{
+		img: "https://static.wixstatic.com/media/da252a_0c1a127630b04428a00fadcce2066244~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Amit%20kumar_edited.jpg",
+		name: "Amit Kumar",
+		designation: "Sr. Finishing Manager",
+	},
+	{
+		img: "https://static.wixstatic.com/media/da252a_929bc536b73a47ef90bbc4b67cf19d62~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Alam153_edited.jpg",
+		name: "Shahanawaz Alam",
+		designation: "Sr. MEP Manager",
+	},
+	{
+		img: "https://static.wixstatic.com/media/da252a_584929c2efb448e29df7904244a91c0b~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Sujit%20Gandhewar_edited.jpg",
+		name: "Sujit Gandhewar",
+		designation: "Sr. MEP Manager",
+	},
+	{
+		img: "https://static.wixstatic.com/media/da252a_b0b4eb1a0c174a5699bde7eee01dc9df~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Kumar%20Dagale%20-%20Civil%20Engineer_edited.jpg",
+		name: "Kumar Dagale",
+		designation: "Civil Engineer",
+	},
+	{
+		img: "https://static.wixstatic.com/media/da252a_0ea3e2921cc74cdc92b528b313873344~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Kamlesh%20sudhra_edited.jpg",
+		name: "Kamlesh Sudra",
+		designation: "Finishing Manager",
+	},
+	{
+		img: "https://static.wixstatic.com/media/da252a_a4703ce96bbf4a048d03f7293c4c20a2~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Arif%20Inamdar_edited.jpg",
+		name: "Arif Inamdar",
+		designation: "Mechanical Engineer",
+	},
+	{
+		img: "https://static.wixstatic.com/media/da252a_9d739b43c1e248fbab3d7bfde1606790~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Pankaj%20Shukla_edited.jpg",
+		name: "Pankaj Shukla",
+		designation: "Purchase Manager",
+	},
+	{
+		img: "https://static.wixstatic.com/media/f35b36_2232a9eb2d7943f3b746be04ca50dff0~mv2.jpeg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Shrinath.jpeg",
+		name: "Shrinath Chakraverty",
+		designation: "Project Co-ordinator",
+	},
+	{
+		img: "https://static.wixstatic.com/media/f35b36_3fac648bbfed4670a3f53a4bf96550a7~mv2.jpg/v1/fill/w_506,h_506,al_c,q_90,enc_auto/Harsh%20Padhiyar.jpg",
+		name: "Harsh Padhiyar",
+		designation: "Finishing Engineer",
+	},
+];
 
-export const hospitalityProjects = [
-    {
-        id: 1,
-        name: 'Grand Hyatt',
-        location: 'Goa',
-        img: 'https://static.wixstatic.com/media/da252a_c38b143b23a642dbb7d8521d4a17c14c~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_c38b143b23a642dbb7d8521d4a17c14c~mv2.jpg',
-    },
-    {
-        id: 2,
-        name: 'Hotel Radisson',
-        location: 'Andheri',
-        img: 'https://static.wixstatic.com/media/f35b36_d2610134f18d47ad98b5574beaf9dd6b~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_d2610134f18d47ad98b5574beaf9dd6b~mv2.jpg',
-    },
-    {
-        id: 3,
-        name: 'Hyatt Palace',
-        location: 'Pune',
-        img: 'https://static.wixstatic.com/media/da252a_4742208f969f46e1a4d636f909aaf531~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/da252a_4742208f969f46e1a4d636f909aaf531~mv2.jpg',
-    },
-    {
-        id: 4,
-        name: 'Hotel Hilton',
-        location: 'Mumbai',
-        img: 'https://static.wixstatic.com/media/da252a_5d9c2cc0df9a4fbabdb24e6469fa7a13~mv2_d_5616_3729_s_4_2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_5d9c2cc0df9a4fbabdb24e6469fa7a13~mv2_d_5616_3729_s_4_2.jpg',
-    },
-    {
-        id: 5,
-        name: 'Casino Strike',
-        location: 'Goa',
-        img: 'https://static.wixstatic.com/media/da252a_1585891a40ad4895bf78680390f32d08~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_1585891a40ad4895bf78680390f32d08~mv2.jpg',
-    },
-    {
-        id: 6,
-        name: 'Royal Hometel & Suites',
-        location: 'Dahisar',
-        img: 'https://static.wixstatic.com/media/f35b36_d0c6038005a5449b866b1e5503b51556~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_d0c6038005a5449b866b1e5503b51556~mv2.jpg',
-    },
-    {
-        id: 7,
-        name: 'Regenta By Royal Orchid',
-        location: 'Lonavala',
-        img: 'https://static.wixstatic.com/media/f35b36_984c97b74aa04b7eafe1cc21fe499025~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_984c97b74aa04b7eafe1cc21fe499025~mv2.jpeg',
-    },
-]
+export const projects = [
+	{
+		id: 1,
+		type: "hospitality",
+		name: "Grand Hyatt",
+		location: "Goa",
+		img: [
+			"https://static.wixstatic.com/media/da252a_c38b143b23a642dbb7d8521d4a17c14c~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_c38b143b23a642dbb7d8521d4a17c14c~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_99e5de4036e4441f84c335faa47bc529~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_99e5de4036e4441f84c335faa47bc529~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_bcdb4eefa3c9403fa139e0ecac7351b1~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_bcdb4eefa3c9403fa139e0ecac7351b1~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_a9aaa21abf27421da1282ae248863eb3~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_a9aaa21abf27421da1282ae248863eb3~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_a2db5b3cfbb84c1e927a05800a3816cb~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_a2db5b3cfbb84c1e927a05800a3816cb~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_cb4f5f443c2b4508b57ce6ef8837e093~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_cb4f5f443c2b4508b57ce6ef8837e093~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_8097b66c87564fc691b5eaebbba5da73~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_8097b66c87564fc691b5eaebbba5da73~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_90b50d460de242f0aa191c3f1092124c~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_90b50d460de242f0aa191c3f1092124c~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_dd4770c5b5da4d5284d26a5201329b88~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_dd4770c5b5da4d5284d26a5201329b88~mv2.jpg",
+		],
+		desc: [
+			"A truly enchanting destination resort and spa, Grand Hyatt Goa, is set along the calm waters of Bambolim Bay; conveniently located between North and South Goa amidst lush green lawns. The contemporary styled 313 guestrooms offer a private balcony overlooking landscaped gardens, pool or bay",
+			"Culture, cuisine, festivity and a collection of unique experiences -there’s so much packed inside the luxurious resort.",
+			"You are spoiled for choice with seven brilliant, award-winning restaurants, bars and lounge that offer wide selection of authentic cuisine and flavours from across the globe. Indulge in around-the-week dining experience like cooking with our chefs, BBQ picnic under the stars, dimsum and sushi by the pool side or spend your Sunday at the elaborate Wicked Liquid Brunch.",
+			"The resort’s Shamana Spa offers Thai, Balinese and Indian treatments in serene and luxurious surroundings, a fitness centre, beauty salon, indoor and outdoor pools, whirlpools, sauna and steam. ",
+			"The resort is also home to an adventure park that features an array of exciting activities for people of all ages.  For the not-so-faint hearted, sky cycling and high rope course should definitely be on the must do list in addition to wall climbing, aqua zorbing and zip-line. From, sailing to archery, aerial yoga, bouncy castle, trampoline for both kids and adults, there are plenty of family friendly activities and children can are never get bored when staying at Grand Hyatt Goa.",
+			"Grand Hyatt Goa also offers the largest banquet facilities in Goa with state-of-the-art meeting and business facilities. The banquet area has been cleverly designed to be a part of the resort and yet be perfectly self-sufficient on its own. Versatile function rooms are located across two floors and include the palatial and elegant pillar less Grand Ballroom. Six functions rooms are available on the ground level with a pre-function area ideally equipped to hold receptions. The lobby level also houses two meeting rooms and two board rooms. The indoor venues are supplemented with a variety of outdoor options ranging from an open terrace to a landscaped lawn and tropical gardens.",
+			"Whether you’re travelling on business or pleasure, this magnificent destination resort ticks all the boxes for a truly unforgettable stay.",
+		],
+	},
+	{
+		id: 2,
+		type: "hospitality",
+		name: "Hotel Radisson",
+		location: "Andheri",
+		img: [
+			"https://static.wixstatic.com/media/f35b36_d2610134f18d47ad98b5574beaf9dd6b~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_d2610134f18d47ad98b5574beaf9dd6b~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_2fa786ac467744a781f6191423654b80~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_2fa786ac467744a781f6191423654b80~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_5bce3444a3004da8b31af5c2a166b283~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_5bce3444a3004da8b31af5c2a166b283~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_f3c4b39205f5445ab9b17165dcd30738~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_f3c4b39205f5445ab9b17165dcd30738~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_101310e4364d4ac7aff17e511f52fcb9~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_101310e4364d4ac7aff17e511f52fcb9~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_daf6985b6c9c447c920e665a9aad3544~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_daf6985b6c9c447c920e665a9aad3544~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_59a9e6ed170a4da38741e1b5a1f603bb~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_59a9e6ed170a4da38741e1b5a1f603bb~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_5d6a0018ace64d18819bdd4a0400230d~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_5d6a0018ace64d18819bdd4a0400230d~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_e94ab1f940d44773bbe835cad0b3d483~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_e94ab1f940d44773bbe835cad0b3d483~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_2c026cd4fd6d43a6b633a08d1aec6106~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_2c026cd4fd6d43a6b633a08d1aec6106~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_b83fdc69a3d14ed8bc61781218dcb822~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_b83fdc69a3d14ed8bc61781218dcb822~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_c47b2c57ffd2498d9a464c2fb01d5810~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_c47b2c57ffd2498d9a464c2fb01d5810~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_a6999538a3f64f1c9da045fd90cce90c~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_a6999538a3f64f1c9da045fd90cce90c~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_863dd00e38194227ba1c6373b01b04e0~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_863dd00e38194227ba1c6373b01b04e0~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_cc12339d608846fc9d5a6c2f175ea9c4~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_cc12339d608846fc9d5a6c2f175ea9c4~mv2.jpg",
+		],
+		desc: [
+			"Built over 2400 square meters of landed property featuring 111 rooms and including amenities like - All day dining (450/sq.mtr), Interactive kitchen (165/sq.mtr), Main Ballroom (208sqm), Swimming pool, Fitness Center & Spa.",
+		],
+	},
+	{
+		id: 3,
+		type: "hospitality",
+		name: "Hyatt Palace",
+		location: "Pune",
+		img: [
+			"https://static.wixstatic.com/media/da252a_4742208f969f46e1a4d636f909aaf531~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/da252a_4742208f969f46e1a4d636f909aaf531~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_f359f2e3164646e7a9f1b32526c37ccb~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_f359f2e3164646e7a9f1b32526c37ccb~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_583f3984b81843a4a3d9e61e49ddabbe~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_583f3984b81843a4a3d9e61e49ddabbe~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_2a6610075d7c47cea0482bae313fcb72~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_2a6610075d7c47cea0482bae313fcb72~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_c10d4b3580514765a9d440415a29c6ae~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_c10d4b3580514765a9d440415a29c6ae~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_19f8b6caf2e94e86b897946e2d35d7c3~mv2_d_2560_1920_s_2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_19f8b6caf2e94e86b897946e2d35d7c3~mv2_d_2560_1920_s_2.jpg",
+			"https://static.wixstatic.com/media/da252a_a74ba24025a041108312a124c71f24d1~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_a74ba24025a041108312a124c71f24d1~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_2ffd6b8e426d406abc51a8f975d51b2b~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_2ffd6b8e426d406abc51a8f975d51b2b~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_234d911daf724f94abb4e2d7fa22248d~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_234d911daf724f94abb4e2d7fa22248d~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_e5dd1a3bfac2478d9dec08ecbf5f3821~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_e5dd1a3bfac2478d9dec08ecbf5f3821~mv2.jpg",
+		],
+		desc: [
+			"Built over 2200 square meters of landed property featuring 117 rooms and including amenities like Business centre, Restaurant, Fitness centre, Cocktail Bar, Outdoor Pool, Fitness center.",
+		],
+	},
+	{
+		id: 4,
+		type: "hospitality",
+		name: "Hotel Hilton",
+		location: "Mumbai",
+		img: [
+			"https://static.wixstatic.com/media/da252a_5d9c2cc0df9a4fbabdb24e6469fa7a13~mv2_d_5616_3729_s_4_2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_5d9c2cc0df9a4fbabdb24e6469fa7a13~mv2_d_5616_3729_s_4_2.jpg",
+			"https://static.wixstatic.com/media/da252a_78722e2468154905bf937e4ec7360435~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_78722e2468154905bf937e4ec7360435~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_9884dd6bad36496c95ac765bcdf2c0a5~mv2_d_1280_1927_s_2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_9884dd6bad36496c95ac765bcdf2c0a5~mv2_d_1280_1927_s_2.jpg",
+			"https://static.wixstatic.com/media/da252a_47ba5eac33244fc79f6bc321e0c433cf~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_47ba5eac33244fc79f6bc321e0c433cf~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_d95c88f8de9d4b73ad6ef10b3d2840a6~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_d95c88f8de9d4b73ad6ef10b3d2840a6~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_22af61b91e7a40e49bb9df2a42768dae~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_22af61b91e7a40e49bb9df2a42768dae~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_546c7f7fd96240259d060c6b9510c3b0~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_546c7f7fd96240259d060c6b9510c3b0~mv2.jpeg",
+			"https://static.wixstatic.com/media/da252a_6254d084a88d4785ae0b7a5895ccdfaa~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_6254d084a88d4785ae0b7a5895ccdfaa~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_0ba0c491465042159a4e6729e1517e47~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/da252a_0ba0c491465042159a4e6729e1517e47~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_8c98341c6c0b4b5eb81211d40b6ef051~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/da252a_8c98341c6c0b4b5eb81211d40b6ef051~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_9a3b2720d0bf4549bb0b3517eee26a10~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_9a3b2720d0bf4549bb0b3517eee26a10~mv2.jpg",
+		],
+		desc: [
+			"International Airport offers a unique blend of colonial-era influences and contemporary design, at one of the most convenient locations near the airport. The upscale, 171-room hotel is just a five-minute drive from the international airport, 15-minute drive from the domestic airport and 5-minute from International within easy access of the commercial, shopping and entertainment centres. Designed as an elegant 19th-century colonial summer palace, the hotel offers the latest technology and best-in-class modern amenities. Dining options encompass three restaurants, a lobby lounge and a garden bar.",
+			"The Hilton Mumbai International Airport hotel is equipped with 4,847 square feet of function space; a 2,420 square feet ballroom and 2 grand halls. The function facilities provide flexible seating arrangements, large pre-function areas and the latest in audio-visual technology, making it ideal for corporate events, social functions and weddings. The hotel also offers business travellers a business centre with 4 meeting rooms, all with wireless internet access. For the after work hours, the hotel offers an outdoor pool and a fitness centre.",
+		],
+	},
+	{
+		id: 5,
+		type: "hospitality",
+		name: "Casino Strike",
+		location: "Goa",
+		img: [
+			"https://static.wixstatic.com/media/da252a_1585891a40ad4895bf78680390f32d08~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_1585891a40ad4895bf78680390f32d08~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_96af1cc190bb45e4a35dab0e97c929ae~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_96af1cc190bb45e4a35dab0e97c929ae~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_64f0214de1184b3ba39ae3855c7c5d8b~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/da252a_64f0214de1184b3ba39ae3855c7c5d8b~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_c7e5f70d577946f58636f9d44deea27e~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_c7e5f70d577946f58636f9d44deea27e~mv2.jpeg",
+			"https://static.wixstatic.com/media/da252a_3039918e44cd412e975eea02bc72176d~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/da252a_3039918e44cd412e975eea02bc72176d~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_e340f43a0b454e4397eb0d0b0f69be85~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_e340f43a0b454e4397eb0d0b0f69be85~mv2.jpeg",
+			"https://static.wixstatic.com/media/da252a_f27e497972714be2be8b2eaa5b164239~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_f27e497972714be2be8b2eaa5b164239~mv2.jpg",
+			"https://static.wixstatic.com/media/da252a_8419969043bc4b0f835893b63c851707~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/da252a_8419969043bc4b0f835893b63c851707~mv2.jpeg",
+		],
+		desc: [
+			"Constructed over 3 floors The Strike casino is located within the luxurious Grand Hyatt hotel of Goa equipped with latest gaming tables and slot machines.",
+		],
+	},
+	{
+		id: 6,
+		type: "hospitality",
+		name: "Royal Hometel and Suites",
+		location: "Dahisar",
+		img: [
+			"https://static.wixstatic.com/media/f35b36_d0c6038005a5449b866b1e5503b51556~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_d0c6038005a5449b866b1e5503b51556~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_c2165a880e364b0cad4cee5ed5f63023~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_c2165a880e364b0cad4cee5ed5f63023~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_6a6a717ce9654d6c8df9b2e5d1be2e75~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_6a6a717ce9654d6c8df9b2e5d1be2e75~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_070a2efbe8294ce3ba5c431e392358cf~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_070a2efbe8294ce3ba5c431e392358cf~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_98eb66f6cee541e09503b4963b9f50cc~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_98eb66f6cee541e09503b4963b9f50cc~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_682a4d366d584f2ebba0a9b2985375a0~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_682a4d366d584f2ebba0a9b2985375a0~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_ffb4f9dc0b1d497a838d0d7e0b7bf2e1~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_ffb4f9dc0b1d497a838d0d7e0b7bf2e1~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_9b876515b43d4c559849eb833466bc12~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_9b876515b43d4c559849eb833466bc12~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_8e9d755f549444eaa9fae6401af41610~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_8e9d755f549444eaa9fae6401af41610~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_8e4e55c79a9d4f468795d4daa26975d1~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_8e4e55c79a9d4f468795d4daa26975d1~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_a5e11e51ca824016a7d0f45d5ac47af8~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_a5e11e51ca824016a7d0f45d5ac47af8~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_769e1bf76ffe49f196f0536a7ee7a46f~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_769e1bf76ffe49f196f0536a7ee7a46f~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_852724ee5e454104bf5f04a52c418232~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_852724ee5e454104bf5f04a52c418232~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_596c90a548e34bebbea30a2719c9ce68~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_596c90a548e34bebbea30a2719c9ce68~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_fb890acaabe446b9931bbadfd6c146ee~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_fb890acaabe446b9931bbadfd6c146ee~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_f3e4034394b748e18fe45c5eb210e447~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_f3e4034394b748e18fe45c5eb210e447~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_0372474dd06c4de5b258e5284243a9e2~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_0372474dd06c4de5b258e5284243a9e2~mv2.jpg",
+			"https://static.wixstatic.com/media/f35b36_f72f89d2968c4b828cec9119a1987456~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_f72f89d2968c4b828cec9119a1987456~mv2.jpg",
+		],
+		desc: [
+			"Royal Hometel Suites is a 112-suite hotel featuring an all-day restaurant with private dining room, a bar, banquet halls, conference and meeting rooms, a swimming pool and a Gym.",
+		],
+	},
+	{
+		id: 7,
+		type: "hospitality",
+		name: "Regenta By Royal Orchid",
+		location: "Lonavala",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_984c97b74aa04b7eafe1cc21fe499025~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_984c97b74aa04b7eafe1cc21fe499025~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_5bf3c886978e4d74b07f203da9931ef8~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_5bf3c886978e4d74b07f203da9931ef8~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_a9e9b851233d48bba46b5767a9712658~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_a9e9b851233d48bba46b5767a9712658~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_ff18245177684d8680b4bc289f956947~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_ff18245177684d8680b4bc289f956947~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_b55f385ba319455eaddb2d5412415e28~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_b55f385ba319455eaddb2d5412415e28~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_bf727c06198e45c4b1ad76da42694bea~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_bf727c06198e45c4b1ad76da42694bea~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_d3bfdaadcd4140178ba12039a182b06d~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_d3bfdaadcd4140178ba12039a182b06d~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_dec9990113564ea98ad23acc850dfa9a~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_dec9990113564ea98ad23acc850dfa9a~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_6fcdd837b0274e8f95d6ae748f66791b~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_6fcdd837b0274e8f95d6ae748f66791b~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_f6c7d183c16e4fbf9eb8304b56088114~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_f6c7d183c16e4fbf9eb8304b56088114~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_bf6a7dfec41d4d31b3c256c5b702d917~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_bf6a7dfec41d4d31b3c256c5b702d917~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_c473e798e60d4767a2fc138a43e016a5~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_c473e798e60d4767a2fc138a43e016a5~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_76f4c5c5236f41228a394582eb589aaa~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_76f4c5c5236f41228a394582eb589aaa~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_d4c688dfb2364d42a6337a3c19525c37~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_d4c688dfb2364d42a6337a3c19525c37~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_acc20156087747799ce14544fdaffbe2~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_acc20156087747799ce14544fdaffbe2~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_21e05c80982b48bc86cfadbf47795611~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_21e05c80982b48bc86cfadbf47795611~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_809f841625de4302b9238e95789d668c~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_809f841625de4302b9238e95789d668c~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_ae3b85056e4b4d76b3f3fb77d85dec5e~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_ae3b85056e4b4d76b3f3fb77d85dec5e~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_92e0fe81ff914361940867534bcb88d5~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_92e0fe81ff914361940867534bcb88d5~mv2.jpg"        ],
+		desc: [
+			"SG’S Greenotel is a 75 rooms hotel featuring an all-day restaurant, a lounge bar, conference and meeting rooms, banquet hall, swimming pool, and a Gym.",
+		],
+	},
+	{
+		id: 8,
+		type: "hospitality",
+		name: "Lords Plaza",
+		location: "Lonavala",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_ce8ded7f76eb45fe9e8bb6051dab4eb7~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_ce8ded7f76eb45fe9e8bb6051dab4eb7~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_03d69111e81e49d9ba774bbf9a447780~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_03d69111e81e49d9ba774bbf9a447780~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_ae3fbfe82fe34cc68763df5c9a9aaf19~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_ae3fbfe82fe34cc68763df5c9a9aaf19~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_497bab166848413791418beee9ab7f94~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_497bab166848413791418beee9ab7f94~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_febed385019f41539c7a74dd817cc90d~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_febed385019f41539c7a74dd817cc90d~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_6189b7750fc44bd8a5df0add174fdde6~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_6189b7750fc44bd8a5df0add174fdde6~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_1c4e2115c4894231a556214a65b80b5a~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_1c4e2115c4894231a556214a65b80b5a~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_99c76ecbb24f4957968147dda65ffd51~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_99c76ecbb24f4957968147dda65ffd51~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_58e5fe6807af4308906dc51749dbcc80~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_58e5fe6807af4308906dc51749dbcc80~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_87d118eb335948919ed63e059d8b0646~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_87d118eb335948919ed63e059d8b0646~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_430219312b64419cbdd0a9828f20094e~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_430219312b64419cbdd0a9828f20094e~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_caf0c815619a4697ad2844d591c24f8a~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_caf0c815619a4697ad2844d591c24f8a~mv2.jpeg",
+
+            "https://static.wixstatic.com/media/f35b36_604db57eccff40d79a871ab3caad70a3~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_604db57eccff40d79a871ab3caad70a3~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_b2f561eefb4546ec9d0cade1d69de625~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_b2f561eefb4546ec9d0cade1d69de625~mv2.jpeg",
+        ],
+		desc: [
+			"Lords Plaza is a 36 rooms hotel featuring all modern day amenities with an indoor as well as outdoor Restaurant, Meeting cum Banquet Hall, Swimming Pool and is situated amidst the lush greens of Lonavala.",
+		],
+	},
+	{
+		id: 9,
+		type: "hospitality",
+		name: "Udaipur Palace",
+		location: "Navsari",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_7acbd610cb9e4971a3613b1c1ab97299~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_7acbd610cb9e4971a3613b1c1ab97299~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_e10ebb89da9c4d408a849fe918fbf025~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_e10ebb89da9c4d408a849fe918fbf025~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_e10ebb89da9c4d408a849fe918fbf025~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_e10ebb89da9c4d408a849fe918fbf025~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_f25782d49d8248dc833ffd7c9466d8e4~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_f25782d49d8248dc833ffd7c9466d8e4~mv2.jpg",
+        ],
+		desc: [""],
+	},
+	{
+		id: 10,
+		type: "hospitality",
+		name: "Park Inn by Radisson",
+		location: "Saputara",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_b2364c796a634b3d82b33c94890d3966~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_b2364c796a634b3d82b33c94890d3966~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_b83489d733634b058a89eb879449caa9~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/f35b36_b83489d733634b058a89eb879449caa9~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_61644040543b4953a47e10be76335ada~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_61644040543b4953a47e10be76335ada~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_f7b7cced5eaa4d7a910ef1c9207daa14~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_f7b7cced5eaa4d7a910ef1c9207daa14~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_d2301158b99143ebafa8d7daef21528a~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/f35b36_d2301158b99143ebafa8d7daef21528a~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_e1c16c3cdb484b79b375f8c85ff60fed~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/f35b36_e1c16c3cdb484b79b375f8c85ff60fed~mv2.jpg",
+        ],
+	},
+	{
+		id: 11,
+		type: "hospitality",
+		name: "The Crown by IHCL SeleQtions",
+		location: "Bhubaneshwar",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_55a38c909b91408187a6ff00eff28011~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_55a38c909b91408187a6ff00eff28011~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_756b4100ef5243bf943841a41bcb00df~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/f35b36_756b4100ef5243bf943841a41bcb00df~mv2.jpg"            
+        ],
+	},
+	{
+		id: 12,
+		type: "residential",
+		name: "DB Enclave",
+		location: "Mumbai",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_bd3ea027f49d48cfbc9bb6f8e9ab31b9~mv2.jpg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/f35b36_bd3ea027f49d48cfbc9bb6f8e9ab31b9~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_87afc05356e54396b25ca98978f10c5b~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_87afc05356e54396b25ca98978f10c5b~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_fecde11bc4794d959431cbc8ce04c123~mv2.jpg/v1/fillw_1920,h_1080,al_c,lg_1,q_90,enc_auto/f35b36_fecde11bc4794d959431cbc8ce04c123~mv2.jpg,",
+            "https://static.wixstatic.com/media/f35b36_e6e5fece558446a28854cc8f924b92de~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_e6e5fece558446a28854cc8f924b92de~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_263fb20aba9c4677bea9d5447481476c~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_263fb20aba9c4677bea9d5447481476c~mv2.jpg",
+        ],
+	},
+	{
+		id: 13,
+		type: "residential",
+		name: "DB Woods",
+		location: "Mumbai",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_87d441103610439fbba290e59ee11b2f~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_87d441103610439fbba290e59ee11b2f~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_036781928c70450d954d6fb0fc314807~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,lg_1,q_90,enc_auto/f35b36_036781928c70450d954d6fb0fc314807~mv2.jpeg"
+        ],
+	},
+	{
+		id: 14,
+		type: "residential",
+		name: "High-End Bungalow",
+		location: "Dahisar",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_31f9466e39c8479fb257e4ad44ca4a15~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/f35b36_31f9466e39c8479fb257e4ad44ca4a15~mv2.png",
+            "https://static.wixstatic.com/media/f35b36_a5c386b3ca0744a1a9915f4e97b664b2~mv2.png/v1/fill/w_1920,h_1080,al_c,lg_1,q_95,enc_auto/f35b36_a5c386b3ca0744a1a9915f4e97b664b2~mv2.png",
+            "https://static.wixstatic.com/media/f35b36_b4a52ea1e1a64561ba600471572683e9~mv2.png/v1/fill/w_1920,h_1080,al_c,lg_1,q_95,enc_auto/f35b36_b4a52ea1e1a64561ba600471572683e9~mv2.png",
+            "https://static.wixstatic.com/media/f35b36_1d95c91631e240af9ecaacbaf9c49219~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/f35b36_1d95c91631e240af9ecaacbaf9c49219~mv2.png",
+            "https://static.wixstatic.com/media/f35b36_a180fb77313a407eb1dc9a480dfef0c7~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/f35b36_a180fb77313a407eb1dc9a480dfef0c7~mv2.png",
+            "https://static.wixstatic.com/media/f35b36_dfa1b4279c2247e5bdafe416d31e711f~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_dfa1b4279c2247e5bdafe416d31e711f~mv2.jpg",
+        ],
+	},
+	{
+		id: 15,
+		type: "ongoing",
+		name: "Radisson Spa & Resort",
+		location: "Lonavala",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_a96936e3c695491aa192d4e3c657a34d~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_a96936e3c695491aa192d4e3c657a34d~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_a00e1bb75e214ffab753c69eb6d4573a~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_a00e1bb75e214ffab753c69eb6d4573a~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_cad5fc96638e423a8fb3aa89199c376b~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_cad5fc96638e423a8fb3aa89199c376b~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_1b563742d29a4ed292c429824ee42998~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_1b563742d29a4ed292c429824ee42998~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_2a045bc506e74562be9733ee51480d02~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_2a045bc506e74562be9733ee51480d02~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_0a29e39c924a47b493362e1ded3b8f43~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_0a29e39c924a47b493362e1ded3b8f43~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_b43eb482998445239499bc8670e05176~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_b43eb482998445239499bc8670e05176~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_06b5e516084c45f8a5582c59b5531164~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_06b5e516084c45f8a5582c59b5531164~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_b97163dfb4764fdb98e514285903b22d~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_b97163dfb4764fdb98e514285903b22d~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_e1e9ca6d8b9c4635889df90880a72824~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_e1e9ca6d8b9c4635889df90880a72824~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_f1e34bed318a4edda1d8d6843a29a5f9~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_f1e34bed318a4edda1d8d6843a29a5f9~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_6e6e4478a1d546d1a2079444f81b5dca~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_6e6e4478a1d546d1a2079444f81b5dca~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_96302d777eff49558f47b342f74ee392~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_96302d777eff49558f47b342f74ee392~mv2.jpg",
+        ],
+	},
+	{
+		id: 16,
+		type: "ongoing",
+		name: "Vivanta By Taj",
+		location: "Vadodara",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_1eeb4d7aca494781bb1e54b83cb328da~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_1eeb4d7aca494781bb1e54b83cb328da~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_5de03ec3f2844427ab89831373fb99ba~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_5de03ec3f2844427ab89831373fb99ba~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_f6669b2762e8417bb1b5d3e66eb42e12~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_f6669b2762e8417bb1b5d3e66eb42e12~mv2.jpeg",
+        ],
+	},
+	{
+		id: 17,
+		type: "ongoing",
+		name: "Park Inn",
+		location: "Surat",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_3676066470824edf8d633c90fe96c562~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_3676066470824edf8d633c90fe96c562~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_9612f33812844b50aeadaf8014f1e8b3~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_9612f33812844b50aeadaf8014f1e8b3~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_402d4984b8e7436abbf32cb9e4ad3492~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_402d4984b8e7436abbf32cb9e4ad3492~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_2d4e235dc65a48068934010aba1aa446~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_2d4e235dc65a48068934010aba1aa446~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_0eb6ecd92e484c60904097c9308df90b~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_0eb6ecd92e484c60904097c9308df90b~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_8c13e114a0c440b28a9a60311a6296a0~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_8c13e114a0c440b28a9a60311a6296a0~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_0b482ca8c1954d07a48663245975f618~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_0b482ca8c1954d07a48663245975f618~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_984297ecf19e4afc91d5d0ce2151666e~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_984297ecf19e4afc91d5d0ce2151666e~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_8ff6cb2037a149e090df262784621fed~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_8ff6cb2037a149e090df262784621fed~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_b4d200b3e5d54dc2a2dc82514db994df~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_b4d200b3e5d54dc2a2dc82514db994df~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_3c0b49094ac34854b5ec3c9486e9df11~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_3c0b49094ac34854b5ec3c9486e9df11~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_e1c90a7e56c54f86bcaebf40313ace02~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_e1c90a7e56c54f86bcaebf40313ace02~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_370219f44d0c46c1bcf415b86fcfd1b7~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_370219f44d0c46c1bcf415b86fcfd1b7~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_165bdbc6d1674010af6a0a1c8fba016b~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_165bdbc6d1674010af6a0a1c8fba016b~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_e73ed633cf8c4e788c119c718e17bab6~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_e73ed633cf8c4e788c119c718e17bab6~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_d686474997a64b77b91083761686987a~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_d686474997a64b77b91083761686987a~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_e4a5f9952fcb4911b9f4c1082abcf69a~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_e4a5f9952fcb4911b9f4c1082abcf69a~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_aa7a3abb345a4e738375b06142bd6831~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_aa7a3abb345a4e738375b06142bd6831~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_a8320477ce8947698ee4b9410b848c95~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_a8320477ce8947698ee4b9410b848c95~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_5b18f55712aa4d969badc0ce47401bc9~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_5b18f55712aa4d969badc0ce47401bc9~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_27f478aca44e43cbba44378d3fc0ef8d~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_27f478aca44e43cbba44378d3fc0ef8d~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_52a0fdc42d32401e828ad0bdc4a6e09d~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_52a0fdc42d32401e828ad0bdc4a6e09d~mv2.jpg",
+        ],
+	},
+	{
+		id: 18,
+		type: "ongoing",
+		name: "Garden Inn By Hilton",
+		location: "Surat",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_66c40306722a4f34a6ce534ab5e0d00c~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_66c40306722a4f34a6ce534ab5e0d00c~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_afbd1438c8994b3f8df01129df0ac997~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_afbd1438c8994b3f8df01129df0ac997~mv2.jpeg",
+        ],
+	},
+	{
+		id: 19,
+		type: "ongoing",
+		name: "Community Center",
+		location: "Thane",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_b055710e800f4b4f9187ab669bc607f4~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_b055710e800f4b4f9187ab669bc607f4~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_aa7da4075f1d42c2986c453620707db1~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_aa7da4075f1d42c2986c453620707db1~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_1f3f192095a94d92875828be21b48684~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_1f3f192095a94d92875828be21b48684~mv2.jpeg",
+            "https://static.wixstatic.com/media/f35b36_ae252b1caea14230b6046cac9fb3371f~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_ae252b1caea14230b6046cac9fb3371f~mv2.jpeg"
+        ],
+	},
+	{
+		id: 20,
+		type: "ongoing",
+		name: "Devi Ratn New Block",
+		location: "Jaipur",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_c53b2cb4d9694dcb9ac91d984c5aa42d~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_c53b2cb4d9694dcb9ac91d984c5aa42d~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_a19c7ba88a19469c87efbd710204e9c4~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_a19c7ba88a19469c87efbd710204e9c4~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_ace31dde96ca4573a9d162d3baec67f1~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_ace31dde96ca4573a9d162d3baec67f1~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_7c210a33bc8d43c691a67c827eedc3d8~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_7c210a33bc8d43c691a67c827eedc3d8~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_9043be0268644c87b8825010a0b90307~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_9043be0268644c87b8825010a0b90307~mv2.jpg",
+        ],
+        desc: [
+            "Built over 80,500 square meters of area, New Block is an extension to existing Devi Ratn Hotel featuring 82 rooms, 1452 sft. All Day Dining Restaurant, 1420 sft. Meeting space with 1072 sft. Prefunction area and 1306 sft. Of kitchen area."
+        ],
+	},
+	{
+		id: 21,
+		type: "ongoing",
+		name: "7Apple Hotel",
+		location: "Jaipur",
+		img: [
+            "https://static.wixstatic.com/media/f35b36_cb8bcb724d4f46bcade858f3a3e5b3e4~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_cb8bcb724d4f46bcade858f3a3e5b3e4~mv2.jpg",
+            "https://static.wixstatic.com/media/f35b36_107a14b87ec241349bfb87d014190443~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_auto/f35b36_107a14b87ec241349bfb87d014190443~mv2.jpg"
+        ],
+        desc: [
+            "Built over 1712 square meters, 7Apple Hotel is a 90 keys Hotel featuring a Banquet area of 1765 sft, an All Day Dining restaurant of 980 sft, and BOH area of 1560 sft."
+        ],
+	},
+];

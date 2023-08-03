@@ -99,16 +99,30 @@ const AboutUs = () => {
 					Our Team
 				</h1>
                 <p className="md:mb-11 mb-8 font-light sm:text-xl text-lg text-center w-full mx-auto max-w-[600px]">We are a client-focused PMC team, delivering innovative and tailored solutions with expertise and integrity.</p>
-                <div className="grid xl:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-1 md:gap-6 gap-4">
-                    { ourTeam.map((member, i) => (
-                        <div key={i} className="relative w-auto h-auto font-Inter group/team rounded-lg overflow-hidden">
-                            <img src={member.img} className="w-full h-full object-cover object-center" alt="" />
-                            <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.8)] to-transparent flex flex-col items-center justify-end px-4 py-4 transition-all duration-300 opacity-0 group-hover/team:opacity-100">
-                                <h3 className="text-lightBlue xl:text-xl xl:leading-normal text-lg sm:leading-tight mb-0.5 font-semibold text-center">{member.name}</h3>
-                                <p className="text-lightBlue font-light text-center">{member.designation}</p>
-                            </div>
-                        </div>
-                    )) }
+
+                <div className="grid xl:grid-cols-5 lg:grid-cols-4 sm:grid-cols-3 grid-cols-1 md:gap-6 gap-4">
+                    { ourTeam.map((member, i) => {
+						if(i === 0) {
+							return (
+							<div key={i} className="relative xl:w-1/4 sm:w-1/3 h-auto mx-auto font-Inter sm:col-span-3 xl:col-span-5 group/team rounded-lg overflow-hidden">
+								<img src={member.img} className="w-full h-full object-cover object-center" alt="" />
+								<div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.8)] to-transparent flex flex-col items-center justify-end px-4 py-4 transition-all duration-300 opacity-0 group-hover/team:opacity-100">
+									<h3 className="text-lightBlue xl:text-xl xl:leading-normal text-lg sm:leading-tight mb-0.5 font-semibold text-center">{member.name}</h3>
+									<p className="text-lightBlue font-light text-center">{member.designation}</p>
+								</div>
+							</div>
+						)} else {
+							return (
+								<div key={i} className="relative w-auto h-auto font-Inter group/team rounded-lg overflow-hidden">
+									<img src={member.img} className="w-full h-full object-cover object-center" alt="" />
+									<div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.8)] to-transparent flex flex-col items-center justify-end px-4 py-4 transition-all duration-300 opacity-0 group-hover/team:opacity-100">
+										<h3 className="text-lightBlue xl:text-xl xl:leading-normal text-lg sm:leading-tight mb-0.5 font-semibold text-center">{member.name}</h3>
+										<p className="text-lightBlue font-light text-center">{member.designation}</p>
+									</div>
+								</div>
+							)
+						}
+					}) }
                 </div>
             </section>
 		</>

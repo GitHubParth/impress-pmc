@@ -44,7 +44,7 @@ const HomePage = () => {
 					{/* Video Section */}
 					<div className="w-full md:w-1/2 relative">
 						<button
-							className="absolute top-[52%] left-[52%] translate-x-[-50%] translate-y-[-50%] text-primaryYellow z-10 md:hover:scale-110 transition-all duration-200 drop-shadow-primary md:w-[80px] md:h-[80px] w-[50px] h-[50px] !outline-none"
+							className="absolute top-[52%] left-[52%] translate-x-[-50%] translate-y-[-50%] text-primaryYellow z-10 md:hover:scale-110 transition-all duration-200 drop-shadow-primary  !outline-none"
 							onClick={() => {
 								if (videoStatus) heroVideo.current.play();
 								else heroVideo.current.pause();
@@ -53,21 +53,17 @@ const HomePage = () => {
 						>
 							{videoStatus === true ? (
 								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="currentWidth"
-									height="currentHeight"
 									fill="currentColor"
 									viewBox="0 0 16 16"
+									className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
 								>
 									<path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
 								</svg>
 							) : (
 								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="currentWidth"
-									height="currentHeight"
 									fill="currentColor"
 									viewBox="0 0 16 16"
+									className="md:w-[80px] md:h-[80px] w-[50px] h-[50px]"
 								>
 									<path d="M6 3.5a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z" />
 								</svg>
@@ -193,7 +189,7 @@ const HomePage = () => {
 
 			{/* Client Testimonials */}
 			<section className="w-full h-full xl:px-20 lg:px-14 md:px-12 sm:px-10 px-8 py-10">
-				<h1 className="xl:text-7xl lg:text-5xl sm:text-4xl text-4xl mb-3 text-center drop-shadow-lg font-bold text-secondary font-Inter xl:px-20 lg:px-14 md:px-12 sm:px-10 px-8">
+				<h1 className="xl:text-7xl lg:text-5xl sm:text-4xl text-4xl mb-3 text-center drop-shadow-lg font-bold text-secondary font-Inter xl:px-20 lg:px-14 md:px-12">
 					Client Testimonials
 				</h1>
 				<p className="md:w-[50%] mx-auto w-full mb-8 sm:mb-10 md:mb-12 text-center text-lg font-light font-Inter">
@@ -202,14 +198,14 @@ const HomePage = () => {
 				</p>
 				<div className="w-full  h-full relative">
 					<button
-						className="absolute top-[50%] translate-y-[-50%] left-0 text-black z-10"
+						className="absolute sm:top-[50%] top-[28%] translate-y-[-50%] left-0 text-black z-10"
 						onClick={() => {
 							mySwiper.slidePrev();
 						}}
 					>
 						<svg
 							fill="currentColor"
-							className="h-10 w-10 -rotate-45"
+							className="md:h-10 sm:h-8 h-6 md:w-10 sm:w-8 w-6 -rotate-45"
 							viewBox="0 0 16 16"
 						>
 							<path
@@ -219,14 +215,14 @@ const HomePage = () => {
 						</svg>
 					</button>
 					<button
-						className="absolute top-[50%] translate-y-[-50%] right-0 text-black z-10"
+						className="absolute sm:top-[50%] top-[28%] translate-y-[-50%] right-0 text-black z-10"
 						onClick={() => {
 							mySwiper.slideNext();
 						}}
 					>
 						<svg
 							fill="currentColor"
-							className="h-10 w-10 rotate-[135deg]"
+							className="md:h-10 sm:h-8 h-6 md:w-10 sm:w-8 w-6 rotate-[135deg]"
 							viewBox="0 0 16 16"
 						>
 							<path
@@ -245,7 +241,7 @@ const HomePage = () => {
 						<svg
 							viewBox="0 0 95 76"
 							fill="none"
-							className="w-20 h-20 absolute top-0 left-0"
+							className="sm:w-20 w-10 sm:h-20 h-10 absolute top-0 left-0"
 						>
 							<path
 								d="M92.3611 69.08C92.3611 70.9261 90.8646 72.4226 89.0185 72.4226L55.9445 72.4226C54.0984 72.4226 52.6019 70.9261 52.6019 69.08L52.6019 34.6002C52.6019 33.9578 52.787 33.329 53.135 32.7891L71.5841 4.17032C72.1995 3.21564 73.2577 2.63882 74.3935 2.63882L78.1827 2.63882C80.6168 2.63882 82.2347 5.15736 81.2227 7.37115L73.9528 23.2738C71.3428 28.983 75.5153 35.4782 81.7928 35.4782L89.0185 35.4782C90.8646 35.4782 92.3611 36.9747 92.3611 38.8208L92.3611 69.08Z"
@@ -285,7 +281,7 @@ const HomePage = () => {
 						<svg
 							viewBox="0 0 95 76"
 							fill="none"
-							className="w-20 h-20 absolute top-0 right-0 rotate-180"
+							className="sm:w-20 w-10 sm:h-20 h-10 absolute top-0 right-0 rotate-180"
 						>
 							<path
 								d="M92.3611 69.08C92.3611 70.9261 90.8646 72.4226 89.0185 72.4226L55.9445 72.4226C54.0984 72.4226 52.6019 70.9261 52.6019 69.08L52.6019 34.6002C52.6019 33.9578 52.787 33.329 53.135 32.7891L71.5841 4.17032C72.1995 3.21564 73.2577 2.63882 74.3935 2.63882L78.1827 2.63882C80.6168 2.63882 82.2347 5.15736 81.2227 7.37115L73.9528 23.2738C71.3428 28.983 75.5153 35.4782 81.7928 35.4782L89.0185 35.4782C90.8646 35.4782 92.3611 36.9747 92.3611 38.8208L92.3611 69.08Z"
@@ -327,33 +323,33 @@ const HomePage = () => {
 								<div className="flex flex-col items-center justify-center relative">
 									<img
 										src={rev.img}
-										className="w-36 h-36 object-cover object-center rounded-full"
+										className="sm:w-36 w-32 sm:h-36 h-32 object-cover object-center rounded-full"
 										alt=""
 									/>
-									<div className="flex items-center justify-center gap-2 mt-4">
-										<svg fill="currentColor" className="w-5 text-yellow-400" viewBox="0 0 16 16">
+									<div className="flex items-center justify-center gap-2 mt-3 sm:mt-4">
+										<svg fill="currentColor" className="sm:w-5 w-4 text-yellow-400" viewBox="0 0 16 16">
 											<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
 										</svg>
-										<svg fill="currentColor" className="w-5 text-yellow-400" viewBox="0 0 16 16">
+										<svg fill="currentColor" className="sm:w-5 w-4 text-yellow-400" viewBox="0 0 16 16">
 											<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
 										</svg>
-										<svg fill="currentColor" className="w-5 text-yellow-400" viewBox="0 0 16 16">
+										<svg fill="currentColor" className="sm:w-5 w-4 text-yellow-400" viewBox="0 0 16 16">
 											<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
 										</svg>
-										<svg fill="currentColor" className="w-5 text-yellow-400" viewBox="0 0 16 16">
+										<svg fill="currentColor" className="sm:w-5 w-4 text-yellow-400" viewBox="0 0 16 16">
 											<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
 										</svg>
-										<svg fill="currentColor" className="w-5 text-yellow-400" viewBox="0 0 16 16">
+										<svg fill="currentColor" className="sm:w-5 w-4 text-yellow-400" viewBox="0 0 16 16">
 											<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
 										</svg>
 									</div>
-									<h2 className="text-3xl font-bold font-Inter text-secondary mt-3">
+									<h2 className="sm:text-3xl text-2xl text-center font-bold font-Inter text-secondary mt-2 sm:mt-3">
 										{rev.name}
 									</h2>
-									<p className="font-Inter font-light text-lg text-secondary">
+									<p className="font-Inter font-light text-center sm:text-lg text-sm text-secondary sm:mt-0 mt-1">
 										- {rev.designation}
 									</p>
-									<p className="font-Inter font-light text-center text-gray-500 mt-3">
+									<p className="font-Inter font-light sm:text-center text-justify sm:text-base text-sm text-gray-500 mt-3">
 										{rev.review}.
 									</p>
 								</div>
